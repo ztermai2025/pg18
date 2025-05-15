@@ -1,0 +1,136 @@
+<svg version="1.1" width="600" height="421" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 420 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<!--
+<g transform="translate(165, 10)">
+<path d="M 0 35 v -5 a 15 15 0 0 1 30 0 v 5 z" stroke="#000000" stroke-width="1" fill="#000000" />
+<circle cx="15" cy="10" r="11" fill="#FFFFFF" />
+<circle cx="15" cy="10" r="8" fill="#000000" />
+</g>
+-->
+<g transform="translate(165, 15)">
+<circle cx="15" cy="10" r="10" fill="none" stroke="#000000" stroke-width="2"/>
+<path d="M 0 36 a 15 15 0 0 1 30 0" stroke="#000000" stroke-width="2" fill="none" />
+</g>  
+<rect x="10" y="60" width="270" height="330" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="320" y="60" width="270" height="330" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<ellipse cx="70" cy="100" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="38" y="105" style="font-size:13px;font-family:'Arial'">postmaster</text>
+
+<ellipse cx="180" cy="100" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="155" y="105" style="font-size:13px;font-family:'Arial'">postgres</text>
+
+<rect x="20" y="150" width="250" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<path d="M 65 150 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 125 150 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 165 150 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 195 150 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="30" y="170" style="font-size:13px;font-family:'Arial'">WAL</text>
+<path d="M 180 123 V 137" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 180 48 V 67" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 180 183 V 197" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<ellipse cx="180" cy="230" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="150" y="235" style="font-size:13px;font-family:'Arial'">walsender</text>
+<path d="M 233 230 H 337" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 233 290 H 337" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 233 350 H 337" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<ellipse cx="180" cy="290" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" stroke-dasharray="3,3"/>
+<text x="150" y="295" style="font-size:13px;font-family:'Arial'">walsender</text>
+
+<ellipse cx="180" cy="350" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" stroke-dasharray="3,3"/>
+<text x="150" y="355" style="font-size:13px;font-family:'Arial'">walsender</text>
+
+<ellipse cx="530" cy="100" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="498" y="105" style="font-size:13px;font-family:'Arial'">postmaster</text>
+
+<ellipse cx="400" cy="100" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="375" y="105" style="font-size:13px;font-family:'Arial'">launcher</text>
+
+<ellipse cx="400" cy="230" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="365" y="235" style="font-size:13px;font-family:'Arial'">apply worker</text>
+
+<ellipse cx="400" cy="290" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" stroke-dasharray="3,3"/>
+<text x="367" y="295" style="font-size:13px;font-family:'Arial'">sync worker</text>
+
+<ellipse cx="400" cy="350" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" stroke-dasharray="3,3"/>
+<text x="367" y="355" style="font-size:13px;font-family:'Arial'">sync worker</text>
+
+<text x="490" y="202" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+<text x="20" y="242" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+
+<path d="M 105 290 H 117" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 105 350 H 117" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 453 230 H 477" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 453 290 H 477" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 453 350 H 540 v -7" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(20, 250)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+<g transform="translate(30, 260)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+<g transform="translate(40, 270)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+
+
+<g transform="translate(490, 210)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+<g transform="translate(500, 220)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+<g transform="translate(510, 230)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+<rect x="210" y="200" width="20" height="20" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<text x="235" y="215" style="font-size:13px;font-family:'Microsoft Yahei'">解码器</text>
+  
+</svg>

@@ -1,0 +1,28 @@
+<svg version="1.1" width="600" height="140" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<rect x="20" y="40" width="560" height="30" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:2" />
+<rect x="60" y="40" width="160" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:2" />
+<rect x="270" y="40" width="200" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:2" />
+
+<text x="160" y="59" style="font-size:13px;font-family:'Arial'">COMMIT</text>
+<text x="410" y="59" style="font-size:13px;font-family:'Arial'">COMMIT</text>
+
+<path d="M 100 40 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 153 40 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 403 40 v 30" stroke="#0000FF" stroke-width="1"/>
+
+<path d="M 320 40 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 350 40 v 30" stroke="#0000FF" stroke-width="1"/>
+
+<path d="M 220 100 v -17" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 290 100 v -17" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="205" y="115" style="font-size:13px;font-family:'Arial'">LSN1</text>
+<text x="275" y="115" style="font-size:13px;font-family:'Arial'">LSN2</text>
+
+<path d="M 60 37 v -3 a 5 5 0 0 1 5 -5 h 70 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 70 a 5 5 0 0 1 5 5 v 3" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="105" y="20" style="font-size:13px;font-family:'Arial'">transaction 1</text>
+<text x="335" y="20" style="font-size:13px;font-family:'Arial'">transaction 2</text>
+<path d="M 270 37 v -3 a 5 5 0 0 1 5 -5 h 90 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 90 a 5 5 0 0 1 5 5 v 3" stroke="#000000" stroke-width="1" fill="none"/>
+</svg>

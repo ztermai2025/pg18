@@ -1,0 +1,49 @@
+<svg version="1.1" width="600" height="370" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(-20, 0)">
+<g transform="rotate(60 300 200)"> <path d="M 140 200 a 160 160 0 0 0 320 0 z" stroke="#DAE8FC" stroke-width="1" fill="#DAE8FC"/> </g>
+<path d="M 140 200 h 320" stroke="#000000" stroke-width="1" fill="none"/>
+
+<circle cx="300" cy="200" r="160" fill="none" stroke="#0000FF" stroke-width="1" />
+<circle cx="300" cy="200" r="4" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+
+<circle cx="300" cy="40" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="300" cy="360" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="187" cy="87" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="187" cy="313" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="413" cy="313" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="413" cy="87" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="140" cy="200" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="460" cy="200" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="438" cy="280" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="438" cy="120" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="162" cy="280" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="162" cy="120" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="454" cy="241" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="146" cy="241" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="146" cy="159" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="454" cy="159" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="341" cy="354" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="341" cy="46" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="259" cy="354" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="259" cy="46" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="220" cy="338" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="220" cy="62" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="380" cy="338" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+<circle cx="380" cy="62" r="8" fill="#FFFFFF" stroke="#0000FF" stroke-width="1" />
+
+<path d="M 190 30 h 30 v 12" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="110" y="35" style="font-size:15px;font-family:'Arial'">current XID</text>
+
+<text x="320" y="145" style="font-size:15px;font-family:'Arial'">future</text>
+<text x="210" y="245" style="font-size:15px;font-family:'Arial'">past</text>
+
+<text x="115" y="205" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="45" y="245" style="font-size:15px;font-family:'Arial'">0xFFFFFFFF</text>
+<text x="473" y="205" style="font-size:15px;font-family:'Arial'">2^31 = 0x80000000</text>
+<text x="466" y="165" style="font-size:15px;font-family:'Arial'">0x7FFFFFFF</text>
+
+<path d="M 180 200 a 120 120 0 0 1 120 -120" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+</g>
+</svg>

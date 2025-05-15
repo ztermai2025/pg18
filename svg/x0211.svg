@@ -1,0 +1,23 @@
+<svg version="1.1" width="600" height="441" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 440 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<rect x="220" y="20" width="160" height="400" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 220 60 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 80 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 140 h 160" stroke="#0000FF" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+<path d="M 220 220 h 160" stroke="#0000FF" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+<path d="M 220 280 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 320 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 360 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 400 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="240" y="15" style="font-size:13px;font-family:'Microsoft Yahei'">进程的虚拟内存空间</text>
+<text x="250" y="385" style="font-size:13px;font-family:'Microsoft Yahei'">程序代码区(text)</text>
+<text x="250" y="345" style="font-size:13px;font-family:'Microsoft Yahei'">已初始化的数据</text>
+<text x="250" y="305" style="font-size:13px;font-family:'Microsoft Yahei'">未初始化的数据</text>
+<text x="250" y="265" style="font-size:13px;font-family:'Microsoft Yahei'">堆(head)</text>
+<text x="250" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">未分配的区域</text>
+<text x="250" y="100" style="font-size:13px;font-family:'Microsoft Yahei'">栈(stack)</text>
+<text x="250" y="75" style="font-size:13px;font-family:'Courier New'">argv, environ</text>
+<text x="250" y="40" style="font-size:13px;font-family:'Microsoft Yahei'">内核(kernel)</text>
+</svg>

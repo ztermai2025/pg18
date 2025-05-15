@@ -1,0 +1,47 @@
+<svg version="1.1" width="600" height="280" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<rect x="200" y="40" width="200" height="124" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="40" width="100" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<rect x="250" y="144" width="150" height="20" style="fill:rgb(227,200,0);stroke:#0000FF;stroke-width:1" />
+<path d="M 290 144 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 330 144 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 370 144 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="220" y="80" style="font-size:13px;font-family:'Courier New'">btpo_prev</text>
+<text x="275" y="105" style="font-size:13px;font-family:'Courier New'">btpo_next</text>
+<text x="315" y="63" style="font-size:13px;font-family:'Courier New'">btpo_level</text>
+
+<path d="M 270 90 v 40" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,2" marker-end="url(#arrowhead)"/>
+<path d="M 310 115 v 15" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,2" marker-end="url(#arrowhead)"/>
+<path d="M 350 70 v 60" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,2" marker-end="url(#arrowhead)"/>
+
+<path d="M 230 190 h 20 v -13" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,2" marker-end="url(#arrowhead)"/>
+<text x="145" y="192" style="font-size:13px;font-family:'Courier New'">pd_special</text>
+
+<path d="M 270 167 v 35 h -20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 310 167 v 35 h 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<rect x="60" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="140" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="220" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="300" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="460" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="540" y="220" width="40" height="40" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 103 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 183 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 263 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 343 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 423 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 503 235 h 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 137 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 217 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 297 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 377 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 457 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 537 245 h -24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+</svg>

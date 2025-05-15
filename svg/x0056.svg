@@ -1,0 +1,67 @@
+<svg version="1.1" width="600" height="225" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 269 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+<path id="bottomxline" d="M 10 224 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+<path d="M 20 160 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="30" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="100" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="170" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="310" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="155" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 90 120 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="100" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="170" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="310" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="115" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<path d="M 120 115 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 120 155 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 120 153 V 138" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 230 80 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="240" y="75" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="310" y="75" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="75" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="75" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 370 40 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="380" y="35" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="35" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 300 200 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="310" y="195" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="195" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="195" width="60" height="10" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 260 75 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 115 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 410 75 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 410 35 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 335 155 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 335 195 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 50 105 V 142" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 50 155 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="25" y="100" style="font-size:15px;font-family:'Microsoft Yahei'">重做点</text>
+<text x="520" y="35" style="font-size:13px;font-family:'Microsoft Yahei'">时间线5</text>
+<text x="520" y="75" style="font-size:13px;font-family:'Microsoft Yahei'">时间线4</text>
+<text x="520" y="115" style="font-size:13px;font-family:'Microsoft Yahei'">时间线2</text>
+<text x="520" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">时间线1</text>
+<text x="520" y="195" style="font-size:13px;font-family:'Microsoft Yahei'">时间线3</text>
+
+<path d="M 260 113 v -15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 410 73 v -15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 335 168 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="112" y="180" style="font-size:13px;font-family:'Arial'">(1)</text>
+<text x="328" y="148" style="font-size:13px;font-family:'Arial'">(2)</text>
+<text x="265" y="108" style="font-size:13px;font-family:'Arial'">(3)</text>
+<text x="415" y="68" style="font-size:13px;font-family:'Arial'">(4)</text>
+</svg>

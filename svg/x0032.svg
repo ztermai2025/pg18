@@ -1,0 +1,16 @@
+<svg version="1.1" width="600" height="111" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path d="M 10 110 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -15)">
+<rect x="50" y="40" width="500" height="20" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<path d="M 150 40 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 180 40 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="90" y="55" style="font-size:13px;font-family:'Arial'">24</text>
+<text x="162" y="55" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="350" y="55" style="font-size:13px;font-family:'Arial'">88</text>
+<text x="60" y="33" style="font-size:13px;font-family:'Courier New'">XLogRecord</text>
+<text x="320" y="33" style="font-size:13px;font-family:'Courier New'">CheckPoint</text>
+<path d="M 165 85 V 72" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="70" y="97" style="font-size:13px;font-family:'Courier New'">XLogRecordDataHeaderShort</text>
+</g>
+</svg>

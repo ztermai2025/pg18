@@ -1,0 +1,87 @@
+<svg version="1.1" width="600" height="251" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 250 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+<g transform="translate(60, 40)">
+<text x="-30" y="13" style="font-size:13px;font-family:'Arial'">(a)</text>
+<rect x="0" y="0" width="160" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 40 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 80 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 120 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="17" y="-5" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="57" y="-5" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="97" y="-5" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="137" y="-5" style="font-size:13px;font-family:'Arial'">3</text>
+<path d="M 10 -20 v 8" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="7" y="-25" style="font-size:13px;font-family:'Arial'">p</text>
+
+<path d="M 18 22 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="40" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 18 62 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="80" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 18 102 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="120" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 18 142 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="160" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="0" y="55" style="font-size:13px;font-family:'Arial'">1000</text>
+<text x="0" y="95" style="font-size:13px;font-family:'Arial'">0100</text>
+<text x="0" y="135" style="font-size:13px;font-family:'Arial'">1100</text>
+<text x="0" y="175" style="font-size:13px;font-family:'Arial'">0000</text>
+
+<path d="M 60 22 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="40" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 60 62 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="80" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 60 102 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="120" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="45" y="55" style="font-size:13px;font-family:'Arial'">1001</text>
+<text x="45" y="95" style="font-size:13px;font-family:'Arial'">1101</text>
+<text x="45" y="135" style="font-size:13px;font-family:'Arial'">0101</text>
+</g>
+
+<g transform="translate(300, 40)">
+<text x="-30" y="13" style="font-size:13px;font-family:'Arial'">(b)</text>
+<rect x="0" y="0" width="200" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 40 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 80 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 120 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 160 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="17" y="-5" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="57" y="-5" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="97" y="-5" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="137" y="-5" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="177" y="-5" style="font-size:13px;font-family:'Arial'">4</text>
+<path d="M 50 -20 v 8" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="47" y="-25" style="font-size:13px;font-family:'Arial'">p</text>
+
+<path d="M 18 22 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="40" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 18 62 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="-5" y="80" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="0" y="55" style="font-size:13px;font-family:'Arial'">1000</text>
+<text x="0" y="95" style="font-size:13px;font-family:'Arial'">0000</text>
+
+<path d="M 60 22 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="40" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 60 62 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="80" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 60 102 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="40" y="120" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="45" y="55" style="font-size:13px;font-family:'Arial'">1001</text>
+<text x="45" y="95" style="font-size:13px;font-family:'Arial'">1101</text>
+<text x="45" y="135" style="font-size:13px;font-family:'Arial'">0101</text>
+
+<path d="M 180 22 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="160" y="40" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 180 62 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="160" y="80" width="40" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="165" y="55" style="font-size:13px;font-family:'Arial'">0100</text>
+<text x="165" y="95" style="font-size:13px;font-family:'Arial'">1100</text>
+
+</g>
+</svg>

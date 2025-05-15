@@ -1,0 +1,75 @@
+<svg version="1.1" width="600" height="391" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path d="M 10 390 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -10)">
+<g transform="translate(0, -20)">
+<rect x="20" y="40" width="560" height="220" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="40" y="50" width="200" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="110" y="69" style="font-size:13px;font-family:'Microsoft Yahei'">WAL缓冲池</text>
+
+<rect x="300" y="50" width="260" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="410" y="69" style="font-size:13px;font-family:'Microsoft Yahei'">其它组件</text>
+
+<text x="350" y="103" style="font-size:13px;font-family:'Microsoft Yahei'">共享池的数据页描述数组</text>
+
+<rect x="40" y="110" width="520" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 500 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 100 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 160 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 110 v 20 " stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="390" y="122" style="font-size:35px;font-family:'Arial'">......</text>
+
+<path d="M 530 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 70 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 130 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 250 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 310 132 v 15 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+
+<rect x="40" y="160" width="520" height="80" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 500 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 100 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 160 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 160 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="50" y="200" style="font-size:13px;font-family:'Microsoft Yahei'">数据页</text>
+
+<text x="400" y="200" style="font-size:13px;font-family:'Microsoft Yahei'">共享池</text>
+<text x="390" y="220" style="font-size:35px;font-family:'Arial'">......</text>
+<text x="400" y="255" style="font-size:13px;font-family:'Microsoft Yahei'">共享内存</text>
+</g>
+
+<rect x="40" y="260" width="520" height="80" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 500 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 100 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 160 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 260 v 80 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 343 v 5 a 5 5 0 0 0 5 5 h 20 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 20 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+<text x="42" y="370" style="font-size:15px;font-family:'Courier New'">BLCKSZ</text>
+<text x="390" y="305" style="font-size:35px;font-family:'Arial'">......</text>
+
+<path d="M 530 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 70 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 130 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 250 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 310 230 v 17 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 530 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 70 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 130 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 250 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 310 240 v -8 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="273" y="358" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+<text x="50" y="305" style="font-size:13px;font-family:'Microsoft Yahei'">数据块</text>
+</g>
+</svg>

@@ -1,0 +1,59 @@
+<svg version="1.1" width="600" height="370" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 369 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="50" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">主哈希表</text>
+<text x="70" y="305" style="font-size:48px;font-family:'Arial'">......</text>
+
+<rect x="10" y="50" width="580" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 110 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 210 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 260 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 290 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 360 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 420 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 470 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 530 50 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 50 45 v -5 a 5 5 0 0 1 5 -5 h 20 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 20 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 210 45 v -5 a 5 5 0 0 1 5 -5 h 15 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 15 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 290 45 v -5 a 5 5 0 0 1 5 -5 h 25 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 25 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 420 45 v -5 a 5 5 0 0 1 5 -5 h 15 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 15 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 50 93 V 138" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<path d="M 110 93 v 15 L 178 120 V 138" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<rect x="50" y="150" width="128" height="200" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 170 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 190 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 210 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 230 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 250 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 270 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 330 h 128" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 158 150 V 270" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 158 330 V 350" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 168 160 H 210 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 168 180 H 290 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 168 200 H 470 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 168 220 H 420 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 168 260 H 530 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 168 340 H 360 V 102" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 10 10 V 38" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 590 10 V 38" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="52" y="164" style="font-size:13px;font-family:'Arial'">PMSignalState</text>
+<text x="52" y="184" style="font-size:13px;font-family:'Arial'">Wal Receiver Ctl</text>
+<text x="52" y="204" style="font-size:13px;font-family:'Arial'">Proc Header</text>
+<text x="52" y="224" style="font-size:13px;font-family:'Arial'">PredXactList</text>
+<text x="52" y="244" style="font-size:13px;font-family:'Arial'">XLOG Ctl</text>
+<text x="52" y="264" style="font-size:13px;font-family:'Arial'">Control File</text>
+<text x="52" y="344" style="font-size:13px;font-family:'Arial'">Proc Array</text>
+</svg>

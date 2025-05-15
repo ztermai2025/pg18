@@ -1,0 +1,29 @@
+<svg version="1.1" width="600" height="320" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 209 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path id="bottomxline" d="M 10 319 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="26" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">客户端</text>
+<text x="226" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">服务器端</text>
+
+<text x="326" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">客户端</text>
+<text x="526" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">服务器端</text>
+
+<text x="13" y="295" style="font-size:13px;font-family:'Microsoft Yahei'">时间</text>
+
+<text x="130" y="310" style="font-size:13px;font-family:'Microsoft Yahei'">同步模式</text>
+<text x="430" y="310" style="font-size:13px;font-family:'Microsoft Yahei'">异步模式</text>
+
+<path d="M 47 30 V 300" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 253 30 V 300" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 347 30 V 300" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 553 30 V 300" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 50 60 l 200 20 v 30 l -200 20 v 30 l 200 20 v 30 l -200 20 v 30 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 350 50 l 200 20 v 40 l -190 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 100 l 200 20 v 40 l -190 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 150 l 200 20 v 40 l -190 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 200 l 200 20 v 40 l -190 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+</svg>

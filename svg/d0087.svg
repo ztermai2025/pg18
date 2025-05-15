@@ -1,0 +1,28 @@
+<svg version="1.1" width="600" height="430" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<rect x="100" y="50" width="400" height="360" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<rect x="100" y="50" width="400" height="180" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="100" y="50" width="200" height="30" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="300" y="50" width="60" height="30" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+
+<text x="190" y="68" style="font-size:13px;font-family:'Arial'">24 bytes</text>
+<text x="310" y="68" style="font-size:13px;font-family:'Arial'">4 bytes</text>
+<text x="290" y="20" style="font-size:13px;font-family:'Courier New'">fp_next_slot</text>
+<text x="150" y="20" style="font-size:13px;font-family:'Courier New'">PageHeaderData</text>
+<path d="M 200 25 V 37" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 330 25 V 37" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 503 50 h 5 a 10 10 0 0 1 10 10 v 70 a 10 10 0 0 0 10 10 a 10 10 0 0 0 -10 10 v 70 a 10 10 0 0 1 -10 10 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 503 230 h 5 a 10 10 0 0 1 10 10 v 70 a 10 10 0 0 0 10 10 a 10 10 0 0 0 -10 10 v 70 a 10 10 0 0 1 -10 10 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 97 50 h -5 a 10 10 0 0 0 -10 10 v 160 a 10 10 0 0 1 -10 10 a 10 10 0 0 1 10 10 v 160 a 10 10 0 0 0 10 10 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="50" y="235" style="font-size:15px;font-family:'Arial'">8K</text>
+
+<text x="530" y="325" style="font-size:15px;font-family:'Arial'">leaf node</text>
+
+<text x="530" y="137" style="font-size:15px;font-family:'Arial'">none-leaf</text>
+<text x="545" y="153" style="font-size:15px;font-family:'Arial'">node</text>
+</svg>

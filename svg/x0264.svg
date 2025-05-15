@@ -1,0 +1,21 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 179 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<text x="193" y="22" style="font-size:13px;font-family:'Microsoft Yahei'">老主库止步于此</text>
+<path d="M 240 30 V 45" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 20 60 H 300" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 306 60 H 580" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<circle cx="240" cy="60" r="3" fill="#FF0000" />
+<circle cx="300" cy="60" r="3" fill="#FF0000" />
+<path d="M 300 60 V 120 H 580" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="530" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">时间线n</text>
+<text x="530" y="110" style="font-size:13px;font-family:'Microsoft Yahei'">时间线n+1</text>
+<text x="410" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">新主库运行的时间线</text>
+<path d="M 460 145 V 135" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="236" y="77" style="font-size:13px;font-family:'Arial'">A</text>
+<text x="296" y="55" style="font-size:13px;font-family:'Arial'">B</text>
+</svg>

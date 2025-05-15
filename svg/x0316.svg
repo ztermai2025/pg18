@@ -1,0 +1,30 @@
+<svg version="1.1" width="600" height="160" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 159 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path d="M 50 80 H 550" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="100" y="70" width="70" height="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="174" y="70" width="100" height="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="278" y="70" width="50" height="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="332" y="70" width="120" height="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="456" y="70" width="20" height="20" style="fill:#DDDDDD;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 135 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 224 25 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 303 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 392 25 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 466 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="527" y="73" style="font-size:13px;font-family:'Arial'">WAL</text>
+
+<text x="90" y="35" style="font-size:13px;font-family:'Microsoft Yahei'">被修改的记录1</text>
+<text x="180" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">被修改的记录2</text>
+<text x="260" y="35" style="font-size:13px;font-family:'Microsoft Yahei'">被修改的记录3</text>
+<text x="350" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">被修改的记录4</text>
+<text x="430" y="35" style="font-size:13px;font-family:'Microsoft Yahei'">提交COMMIT</text>
+
+<path d="M 100 95 v 5 a 5 5 0 0 0 5 5 h 178 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 178 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="255" y="125" style="font-size:13px;font-family:'Microsoft Yahei'">事务的大小</text>
+</svg>

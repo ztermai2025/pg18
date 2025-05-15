@@ -1,0 +1,27 @@
+<svg version="1.1" width="600" height="250" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<rect x="238" y="40" width="124" height="200" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 238 140 h 124" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<ellipse cx="100" cy="90" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="95" style="font-size:13px;font-family:'Arial'">reader process</text>
+
+<ellipse cx="500" cy="90" rx="50" ry="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<text x="459" y="95" style="font-size:13px;font-family:'Arial'">writer process</text>
+
+<path d="M 236 90 H 162 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 448 90 H 374 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 500 112 V 190 H 374 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 236 190 H 100 V 122" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="190" y="82" style="font-size:15px;font-family:'Arial'">(1)</text>
+<text x="405" y="82" style="font-size:15px;font-family:'Arial'">(2)</text>
+<text x="405" y="182" style="font-size:15px;font-family:'Arial'">(3)</text>
+<text x="190" y="182" style="font-size:15px;font-family:'Arial'">(4)</text>
+
+<text x="282" y="32" style="font-size:15px;font-family:'Arial'">Block</text>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<path d="M 20 120 h 550" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="540" y="115" style="font-size:15px;font-family:'Arial'">time</text>
+
+<path d="M 60 80 h 140" stroke="#FF00FF" stroke-width="8" fill="none"/>
+<path d="M 230 80 h 160" stroke="#FF00FF" stroke-width="8" fill="none"/>
+<path d="M 420 80 h 100" stroke="#FF00FF" stroke-width="8" fill="none"/>
+
+<path d="M 60 40 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+<path d="M 230 40 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+<path d="M 420 40 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+
+<text x="25" y="32" style="font-size:15px;font-family:'Arial'">snapshot 1</text>
+<text x="195" y="32" style="font-size:15px;font-family:'Arial'">snapshot 2</text>
+<text x="385" y="32" style="font-size:15px;font-family:'Arial'">snapshot 3</text>
+
+<text x="75" y="70" style="font-size:15px;font-family:'Arial'">SQL statement 1</text>
+<text x="250" y="70" style="font-size:15px;font-family:'Arial'">SQL statement 2</text>
+<text x="425" y="70" style="font-size:15px;font-family:'Arial'">SQL statement 3</text>
+
+<path d="M 60 125 v 5 a 10 10 0 0 0 10 10 h 210 a 10 10 0 0 1 10 10 a 10 10 0 0 1 10 -10 h 210 a 10 10 0 0 0 10 -10 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="195" y="167" style="font-size:15px;font-family:'Arial'">transaction (Read-Committed)</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg version="1.1" width="600" height="160" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 159 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="30" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">0号数据块</text>
+<text x="135" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">1号数据块</text>
+<text x="240" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">2号数据块</text>
+<text x="450" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">n号数据块</text>
+<path d="M 10 100 v 5 a 5 5 0 0 0 5 5 h 250 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 250 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="256" y="132" style="font-size:13px;font-family:'Microsoft Yahei'">堆表</text>
+
+<g transform="translate(0, 18)">
+<g transform="translate(0, 0)">
+<rect x="10" y="10" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 20 h 80 v -10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 70 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 72 v -10 h 90" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<g transform="translate(105, 0)">
+<rect x="10" y="10" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 20 h 80 v -10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 70 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 72 v -10 h 90" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<g transform="translate(210, 0)">
+<rect x="10" y="10" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 20 h 80 v -10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 70 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 72 v -10 h 90" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<text x="340" y="40" style="font-size:36px;font-family:'Arial'">......</text>
+
+<g transform="translate(420, 0)">
+<rect x="10" y="10" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 20 h 80 v -10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 70 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 10 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 72 v -10 h 90" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 62 v 10" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+</g>
+</svg>

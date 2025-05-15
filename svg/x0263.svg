@@ -1,0 +1,55 @@
+<svg version="1.1" width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 499 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="120" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">更新进程</text>
+<text x="420" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">同步进程</text>
+
+<rect x="20" y="30" width="260" height="450" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="320" y="30" width="260" height="450" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="60" y="55" style="font-size:13px;font-family:'Microsoft Yahei'">为某张表派生出一个同步进程</text>
+<path d="M 235 50 H 325" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<g transform="translate(340, 40)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="15" style="font-size:13px;font-family:'Courier New'">SATE_INIT</text>
+</g>
+<path d="M 450 67 v 10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<g transform="translate(340, 90)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="60" y="15" style="font-size:13px;font-family:'Courier New'">SATE_DATASYNC</text>
+</g>
+
+<g transform="translate(340, 140)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="16" style="font-size:13px;font-family:'Microsoft Yahei'">复制初始数据</text>
+</g>
+
+<g transform="translate(340, 190)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="50" y="15" style="font-size:13px;font-family:'Courier New'">SATE_FINISHEDCOPY</text>
+</g>
+
+<g transform="translate(340, 240)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="15" style="font-size:13px;font-family:'Courier New'">SATE_SYNCWAIT</text>
+</g>
+
+<g transform="translate(340, 290)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="15" style="font-size:13px;font-family:'Courier New'">SATE_CATCHUP</text>
+</g>
+
+<g transform="translate(340, 340)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="15" style="font-size:13px;font-family:'Courier New'">SATE_SYNCDONE</text>
+</g>
+
+<g transform="translate(340, 390)">
+<rect x="0" y="0" width="220" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="80" y="15" style="font-size:13px;font-family:'Courier New'">SATE_READY</text>
+</g>
+</svg>

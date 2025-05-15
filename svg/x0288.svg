@@ -1,0 +1,43 @@
+<svg version="1.1" width="600" height="380" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 379 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<rect x="10" y="10" width="300" height="300" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="20" y="295" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="120" y="25" width="30" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="95" width="20" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="213" y="38" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="110" y="295" width="40" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="230" y="123" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="39" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="66" width="60" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="33" y="195" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="156" y="125" width="30" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="170" y="111" width="20" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="77" y="235" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="117" y="205" width="70" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="171" y="35" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="212" y="215" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+<rect x="290" y="235" width="10" height="10" style="fill:#CCCCCC;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 160 313 v 13" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+<g transform="translate(0, 55)">
+<path d="M 10 300 H 530" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="20" y="295" width="38" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="61" y="295" width="23" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="87" y="295" width="70" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="160" y="295" width="33" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="197" y="295" width="90" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="292" y="295" width="48" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="344" y="295" width="17" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="365" y="295" width="27" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="395" y="295" width="46" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 441 260 V 283" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+</g>
+
+<text x="320" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">对磁盘的随机写</text>
+<text x="390" y="310" style="font-size:13px;font-family:'Microsoft Yahei'">对磁盘的顺序写</text>  
+</svg>

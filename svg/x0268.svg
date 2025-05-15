@@ -1,0 +1,37 @@
+<svg version="1.1" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 299 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path d="M 40 60 H 560" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 40 90 H 560" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 40 120 H 560" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 40 150 H 560" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<circle cx="320" cy="60" r="3" fill="#FF0000" />
+<circle cx="360" cy="90" r="3" fill="#FF0000" />
+<circle cx="380" cy="120" r="3" fill="#FF0000" />
+<circle cx="430" cy="150" r="3" fill="#FF0000" />
+
+<path d="M 320 20 v 280" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<rect x="40" y="180" width="520" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 70 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 100 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 160 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 190 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 250 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="310" y="198" style="font-size:25px;font-family:'Arial'">......</text>
+<path d="M 530 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 500 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 470 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 440 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 410 180 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<rect x="40" y="250" width="520" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 160 250 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 250 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 400 250 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+</svg>

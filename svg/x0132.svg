@@ -1,0 +1,48 @@
+<svg version="1.1" width="600" height="451" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 450 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<g transform="translate(-15, -15)">
+<rect x="240" y="40" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="90" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="140" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="190" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="240" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="290" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="340" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="240" y="390" width="350" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="245" y="65" style="font-size:13px;font-family:'Microsoft Yahei'">天行健，君子以自强不息。地势坤，君子以厚德载物。</text>
+<text x="245" y="115" style="font-size:13px;font-family:'Microsoft Yahei'">永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭。</text>
+<text x="245" y="165" style="font-size:13px;font-family:'Microsoft Yahei'">黑夜给了我黑色的眼睛 我却用它寻找光明。 -- 顾城</text>
+<text x="245" y="215" style="font-size:13px;font-family:'Microsoft Yahei'">三十功名尘与土，八千里路云和月。莫等闲，白了少年头。</text>
+<text x="245" y="265" style="font-size:13px;font-family:'Microsoft Yahei'">吾十有五而志于学，三十而立，四十而不惑，五十而知天命。</text>
+<text x="245" y="315" style="font-size:13px;font-family:'Microsoft Yahei'">君子之交，其淡如水，执象而求，咫尺千里。问余何适。</text>
+<text x="245" y="365" style="font-size:13px;font-family:'Microsoft Yahei'">我像只趴在玻璃上的苍蝇，前途一片光明，但又找不到出路。</text>
+<text x="245" y="415" style="font-size:13px;font-family:'Microsoft Yahei'">癸丑九月于科罗拉多洛基山脚之西山寓所，时知天命之年。</text>
+
+<rect x="40" y="60" width="50" height="360" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 40 100 h 50 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 140 h 50 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 180 h 50 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 220 h 50 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 260 h 50 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="49" y="85" style="font-size:13px;font-family:'Microsoft Yahei'">光明</text>
+<text x="49" y="125" style="font-size:13px;font-family:'Microsoft Yahei'">君子</text>
+<text x="49" y="165" style="font-size:13px;font-family:'Microsoft Yahei'">癸丑</text>
+<text x="49" y="205" style="font-size:13px;font-family:'Microsoft Yahei'">三十</text>
+<text x="49" y="245" style="font-size:13px;font-family:'Microsoft Yahei'">天命</text>
+<text x="43" y="330" style="font-size:26px;font-family:'Arial'">......</text>
+<path d="M 92 70 h 20 V 160 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 92 90 h 40 V 360 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 92 110 h 60 V 60 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 92 130 h 80 V 310 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 92 150 h 100 V 110 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 92 170 h 120 V 410 H 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="44" y="53" style="font-size:13px;font-family:'Microsoft Yahei'">关键词</text>
+<text x="400" y="33" style="font-size:13px;font-family:'Microsoft Yahei'">文档</text>
+
+</g>
+</svg>

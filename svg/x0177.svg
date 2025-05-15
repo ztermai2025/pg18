@@ -1,0 +1,78 @@
+<svg version="1.1" width="600" height="341" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 340 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -70)">
+<path d="M 20 100 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="570" y="95" style="font-size:15px;font-family:'Arial'">T</text>
+<path d="M 40 135 v -17" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<text x="15" y="150" style="font-size:13px;font-family:'Microsoft Yahei'">重做点</text>
+<circle cx="40" cy="100" r="4" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<path d="M 255 130 H 405" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<g transform="translate(120, 100)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+</g>
+
+<g transform="translate(410, 100)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 2</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+<rect x="20" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="25" y="65" style="font-size:15px;font-family:'Arial'">BBB</text>
+</g>
+
+<text x="20" y="193" style="font-size:13px;font-family:'Microsoft Yahei'">共享池</text>
+<path d="M 20 200 H 580 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+
+<text x="20" y="263" style="font-size:13px;font-family:'Microsoft Yahei'">WAL文件</text>
+<path d="M 20 270 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g>
+<rect x="200" y="245" width="140" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="245" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="205" y="260" style="font-size:15px;font-family:'Arial'">AAA</text>
+<text x="275" y="260" style="font-size:15px;font-family:'Arial'">COMMIT</text>
+<path d="M 270 245 v 20 " stroke="#000000" stroke-width="1" fill="none" />
+</g>
+
+<g transform="translate(200, 0)">
+<rect x="200" y="245" width="140" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="245" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="205" y="260" style="font-size:15px;font-family:'Arial'">BBB</text>
+<text x="275" y="260" style="font-size:15px;font-family:'Arial'">COMMIT</text>
+<path d="M 270 245 v 20 " stroke="#000000" stroke-width="1" fill="none" />
+</g>
+
+<path d="M 250 220 H 200 V 230" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="255" y="225" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+
+<path d="M 450 220 H 400 V 230" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="455" y="225" style="font-size:15px;font-family:'Arial'">LSN 2</text>
+
+<circle cx="200" cy="270" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="400" cy="270" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+
+
+<path d="M 180 305 V 185" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(120, 300)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+</g>
+
+<path d="M 20 375 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="20" y="368" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+<svg version="1.1" width="600" height="210" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(-40, 0)">
+<rect x="77" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="152" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="227" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="302" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="377" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="452" y="60" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<text x="110" y="75" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="185" y="75" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="260" y="75" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="335" y="75" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="410" y="75" style="font-size:13px;font-family:'Arial'">5</text>
+<text x="485" y="75" style="font-size:13px;font-family:'Arial'">6</text>
+
+<rect x="77" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" stroke-dasharray="2,2"/>
+<rect x="152" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" stroke-dasharray="2,2" />
+<rect x="227" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="302" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="377" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="452" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="527" y="160" width="70" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<text x="110" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="185" y="175" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="260" y="175" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="335" y="175" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="410" y="175" style="font-size:13px;font-family:'Arial'">5</text>
+<text x="485" y="175" style="font-size:13px;font-family:'Arial'">6</text>
+<text x="560" y="175" style="font-size:13px;font-family:'Arial'">7</text>
+
+<path d="M 300 85 V 145" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 240 100 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="207" y="113" style="font-size:13px;font-family:'Arial'">Redo Point</text>
+
+<path d="M 112 182 v 20 H 562 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 227 20 V 60" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+<path d="M 597 20 V 160" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+
+<path d="M 410 40 H 240" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 410 40 H 584" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="250" y="30" style="font-size:13px;font-family:'Arial'">the number of needed segments before next checkpoint</text>
+</g>
+
+</svg>

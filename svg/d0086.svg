@@ -1,0 +1,63 @@
+<svg version="1.1" width="600" height="390" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<rect x="280" y="10" width="40" height="40" style="fill:none;stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="300" cy="30" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+
+<rect x="260" y="70" width="80" height="40" style="fill:none;stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="280" cy="90" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="320" cy="90" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+
+<rect x="220" y="130" width="160" height="40" style="fill:none;stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="240" cy="150" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="280" cy="150" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="320" cy="150" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="360" cy="150" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+
+<rect x="140" y="190" width="320" height="40" style="fill:none;stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="160" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="200" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="240" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="280" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="320" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="360" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="400" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="440" cy="210" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+
+<rect x="20" y="280" width="560" height="40" style="fill:none;stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="40" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="80" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="120" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="160" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="200" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="240" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="280" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+
+<circle cx="360" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<circle cx="400" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="480" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="520" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+<circle cx="560" cy="300" r="15" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1;stroke-dasharray:2,2" />
+
+<path d="M 20 323 v 5 a 10 10 0 0 0 10 10 h 260 a 10 10 0 0 1 10 10 a 10 10 0 0 1 10 -10 h 260 a 10 10 0 0 0 10 -10 v -5" fill="none" stroke="#000000" stroke-width="1"/>
+
+<path d="M 500 30 H 335" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 500 90 H 355" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 500 150 H 395" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 500 210 H 475" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="505" y="35" style="font-size:15px;font-family:'Arial'">Level 12</text>
+<text x="505" y="95" style="font-size:15px;font-family:'Arial'">Level 11</text>
+<text x="505" y="155" style="font-size:15px;font-family:'Arial'">Level 10</text>
+<text x="505" y="215" style="font-size:15px;font-family:'Arial'">Level 9</text>
+
+<text x="283" y="365" style="font-size:15px;font-family:'Arial'">4096</text>
+
+<text x="245" y="260" style="font-size:65px;font-family:'Arial'">......</text>
+<text x="300" y="302" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="420" y="302" style="font-size:25px;font-family:'Arial'">......</text>
+
+<path d="M 385 277 v -5 a 10 10 0 0 1 10 -10 h 77 a 10 10 0 0 0 10 -10 a 10 10 0 0 0 10 10 h 78 a 10 10 0 0 1 10 10 v 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="460" y="250" style="font-size:13px;font-family:'Arial'">27 bytes</text>
+</svg>

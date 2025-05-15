@@ -1,0 +1,30 @@
+<svg version="1.1" width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<rect x="50" y="60" width="500" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 250 60 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 200 60 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 60 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 400 60 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="222" y="75" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="272" y="75" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="347" y="75" style="font-size:13px;font-family:'Arial'">8</text>
+
+<path d="M 225 20 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 275 35 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 25 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="190" y="15" style="font-size:13px;font-family:'Courier New'">xmin</text>
+<text x="260" y="30" style="font-size:13px;font-family:'Courier New'">xmax</text>
+<text x="340" y="15" style="font-size:13px;font-family:'Courier New'">xip</text>
+
+<rect x="200" y="120" width="200" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 250 120 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 120 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 120 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 350 82 v 15 H 200 V 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+</svg>

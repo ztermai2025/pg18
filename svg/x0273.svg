@@ -1,0 +1,63 @@
+<svg version="1.1" width="600" height="210" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 209 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<g transform="translate(20, 0)">
+<text x="5" y="30" style="font-size:13px;font-family:'Arial'">t_xmin</text>
+<text x="115" y="30" style="font-size:13px;font-family:'Arial'">t_infomask</text>
+<text x="220" y="30" style="font-size:13px;font-family:'Arial'">data</text>
+
+<rect x="0" y="40" width="260" height="120" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 70 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 0 100 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 0 130 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 60 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 78 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="5" y="60" style="font-size:13px;font-family:'Arial'">99</text>
+<text x="5" y="90" style="font-size:13px;font-family:'Arial'">100</text>
+<text x="5" y="120" style="font-size:13px;font-family:'Arial'">1500000</text>
+<text x="5" y="150" style="font-size:13px;font-family:'Arial'">2000000</text>
+<text x="230" y="60" style="font-size:13px;font-family:'Arial'">AA</text>
+<text x="230" y="90" style="font-size:13px;font-family:'Arial'">BB</text>
+<text x="230" y="120" style="font-size:13px;font-family:'Arial'">CC</text>
+<text x="230" y="150" style="font-size:13px;font-family:'Arial'">DD</text>
+
+<text x="110" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">事务冻结前</text>
+
+</g>
+
+<path d="M 285 100 H 305" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(320, 0)">
+<text x="5" y="30" style="font-size:13px;font-family:'Arial'">t_xmin</text>
+<text x="115" y="30" style="font-size:13px;font-family:'Arial'">t_infomask</text>
+<text x="220" y="30" style="font-size:13px;font-family:'Arial'">data</text>
+
+<rect x="0" y="40" width="260" height="120" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 70 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 0 100 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 0 130 h 260" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 60 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 78 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 40 v 120" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="5" y="60" style="font-size:13px;font-family:'Arial'">99</text>
+<text x="5" y="90" style="font-size:13px;font-family:'Arial'">100</text>
+<text x="5" y="120" style="font-size:13px;font-family:'Arial'">1500000</text>
+<text x="5" y="150" style="font-size:13px;font-family:'Arial'">2000000</text>
+<text x="230" y="60" style="font-size:13px;font-family:'Arial'">AA</text>
+<text x="230" y="90" style="font-size:13px;font-family:'Arial'">BB</text>
+<text x="230" y="120" style="font-size:13px;font-family:'Arial'">CC</text>
+<text x="230" y="150" style="font-size:13px;font-family:'Arial'">DD</text>
+
+<text x="80" y="60" style="font-size:13px;font-family:'Arial'">HEAP_XMIN_FROZEN</text>
+<text x="80" y="90" style="font-size:13px;font-family:'Arial'">HEAP_XMIN_FROZEN</text>
+
+<text x="110" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">事务冻结后</text>
+
+</g>
+</svg>

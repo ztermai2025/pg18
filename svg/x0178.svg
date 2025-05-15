@@ -1,0 +1,24 @@
+<svg version="1.1" width="600" height="181" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 180 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<path d="M 10 180 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<path d="M 300 30 V 120 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+<path d="M 200 30 V 60 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+<path d="M 500 110 V 140 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+
+<path d="M 100 40 h 200" stroke="#0000FF" stroke-width="3" fill="none" />
+<path d="M 250 65 V 53" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<text x="245" y="78" style="font-size:15px;font-family:'Arial'">q</text>
+
+<path d="M 100 120 h 400" stroke="#0000FF" stroke-width="3" fill="none" />
+
+<text x="188" y="25" style="font-size:15px;font-family:'Arial'">N/2</text>
+<text x="295" y="25" style="font-size:15px;font-family:'Arial'">N</text>
+<text x="490" y="105" style="font-size:15px;font-family:'Arial'">2N</text>
+
+<path d="M 300 145 V 133" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<text x="295" y="158" style="font-size:15px;font-family:'Arial'">q</text>
+
+<text x="70" y="43" style="font-size:15px;font-family:'Arial'">(a)</text>
+<text x="70" y="123" style="font-size:15px;font-family:'Arial'">(b)</text>  
+</svg>

@@ -1,0 +1,139 @@
+<svg version="1.1" width="600" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(250, 20)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<path d="M 260 63 v 10 h -110 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 300 63 v 24 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 340 63 v 10 h 110 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<g transform="translate(250, 100)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<g transform="translate(100, 100)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<g transform="translate(400, 100)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<path d="M 110 143 v 10 h -50 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 130 143 v 10 h 50 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 143 v 10 h 110 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 340 143 v 10 h 80 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 490 143 v 10 h 50 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<g transform="translate(250, 180)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<g transform="translate(10, 180)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<g transform="translate(130, 180)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<g transform="translate(370, 180)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+<g transform="translate(490, 180)">
+<rect x="0" y="0" width="100" height="40" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 20 h 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 40 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 60 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 80 20 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+</g>
+
+<text x="232" y="200" style="font-size:20px;font-family:'Arial'">...</text>
+<text x="352" y="200" style="font-size:20px;font-family:'Arial'">...</text>
+<text x="472" y="200" style="font-size:20px;font-family:'Arial'">...</text>
+
+<text x="205" y="120" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="355" y="120" style="font-size:25px;font-family:'Arial'">......</text>
+
+<rect x="10" y="280" width="580" height="60" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<path d="M 50 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 170 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 210 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 250 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 290 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 330 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 370 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 410 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 550 280 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 20 223 v 40 h 290 v 4" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 40 223 v 30 h 110 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 140 223 v 20 h -30 v 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 580 223 v 10 h -310 v 34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 420 223 v 30 h 150 v 14" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 400 223 v 24 h -10 v 24" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 60 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 80 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 100 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 160 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 180 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 200 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 220 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 560 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 540 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 520 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 500 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 380 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 460 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 440 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 260 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 280 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 300 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 320 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 340 223 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+</svg>

@@ -1,0 +1,73 @@
+<svg version="1.1" width="600" height="310" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 309 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<g transform="translate(0, 0)">
+<path d="M 150 10 l 50 50 h -100 l 50 -50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<rect x="25" y="65" width="250" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 130 65 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 200 65 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="135" y="80" style="font-size:13px;font-family:'Arial'">1000,(5,1)</text>
+<text x="140" y="45" style="font-size:13px;font-family:'Microsoft Yahei'">索引</text>
+
+<rect x="50" y="140" width="200" height="124" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 160 h 160 v -20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 170 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 190 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 250 244 h -130 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 244 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="70" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">数据页的页头</text>
+<text x="176" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="196" y="155" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="200" y="258" style="font-size:13px;font-family:'Microsoft Yahei'">记录1</text>
+<text x="135" y="258" style="font-size:13px;font-family:'Microsoft Yahei'">记录2</text>
+
+<path d="M 165 90 v 10 L 180 108 V 128" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 205 162 v 30 l -85 10 V 230" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 175 162 v 20 h 22 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 210 267 v 20 h -90 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<text x="140" y="278" style="font-size:13px;font-family:'Courier New'">t_ctid</text>
+</g>
+
+<g transform="translate(300, 0)">
+<path d="M 150 10 l 50 50 h -100 l 50 -50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<rect x="25" y="65" width="250" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 130 65 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 200 65 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="135" y="80" style="font-size:13px;font-family:'Arial'">1000,(5,1)</text>
+<text x="140" y="45" style="font-size:13px;font-family:'Microsoft Yahei'">索引</text>
+
+<rect x="50" y="140" width="200" height="124" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 160 h 180 v -20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 170 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 190 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 210 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 250 244 h -190 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 244 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 120 244 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="70" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">数据页的页头</text>
+<text x="176" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="196" y="155" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="216" y="155" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="200" y="258" style="font-size:13px;font-family:'Microsoft Yahei'">记录1</text>
+<text x="135" y="258" style="font-size:13px;font-family:'Microsoft Yahei'">记录2</text>
+<text x="75" y="258" style="font-size:13px;font-family:'Microsoft Yahei'">记录3</text>
+
+<path d="M 165 90 v 10 L 180 108 V 128" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 225 162 v 30 l -165 10 V 230" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 175 162 v 20 h 42 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 210 267 v 20 h -90 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<text x="140" y="278" style="font-size:13px;font-family:'Courier New'">t_ctid</text>
+</g>
+
+<path d="M 275 150 h 40" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 300 10 V 309" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+</svg>

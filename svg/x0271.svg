@@ -1,0 +1,63 @@
+<svg version="1.1" width="600" height="290" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 289 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<rect x="50" y="30" width="200" height="240" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 50 60 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 90 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 120 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 210 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 240 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 120 30 v 90" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 120 210 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="55" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">列1的数据</text>
+<text x="55" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">列1的数据</text>
+<text x="55" y="110" style="font-size:13px;font-family:'Microsoft Yahei'">列1的数据</text>
+<text x="55" y="230" style="font-size:13px;font-family:'Microsoft Yahei'">列1的数据</text>
+<text x="55" y="260" style="font-size:13px;font-family:'Microsoft Yahei'">列1的数据</text>
+<text x="155" y="230" style="font-size:13px;font-family:'Microsoft Yahei'">TOAST指针</text>
+<text x="155" y="260" style="font-size:13px;font-family:'Microsoft Yahei'">列2的数据</text>
+<text x="155" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">TOAST指针</text>
+<text x="155" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">列2的数据</text>
+<text x="155" y="110" style="font-size:13px;font-family:'Microsoft Yahei'">列2的数据</text>
+
+<text x="100" y="170" style="font-size:48px;font-family:'Arial'">......</text>
+
+<rect x="350" y="30" width="200" height="240" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 350 60 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 90 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 120 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 150 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 180 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 400 30 v 150" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 430 30 v 150" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="360" y="50" style="font-size:13px;font-family:'Arial'">2001</text>
+<text x="360" y="80" style="font-size:13px;font-family:'Arial'">2001</text>
+<text x="360" y="110" style="font-size:13px;font-family:'Arial'">2002</text>
+<text x="360" y="140" style="font-size:13px;font-family:'Arial'">2002</text>
+<text x="360" y="170" style="font-size:13px;font-family:'Arial'">2002</text>
+
+<text x="410" y="50" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="410" y="80" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="410" y="110" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="410" y="140" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="410" y="170" style="font-size:13px;font-family:'Arial'">2</text>
+
+<text x="445" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">被分割的数据1</text>
+<text x="445" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">被分割的数据2</text>
+<text x="445" y="110" style="font-size:13px;font-family:'Microsoft Yahei'">被分割的数据1</text>
+<text x="445" y="140" style="font-size:13px;font-family:'Microsoft Yahei'">被分割的数据2</text>
+<text x="445" y="170" style="font-size:13px;font-family:'Microsoft Yahei'">被分割的数据3</text>
+<text x="410" y="220" style="font-size:48px;font-family:'Arial'">......</text>
+
+<path d="M 253 75 h 50 v -30 H 338" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 253 225 h 50 v -120 H 338" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="140" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">原表</text>
+<text x="425" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">TOAST表</text>
+</svg>

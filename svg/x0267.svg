@@ -1,0 +1,45 @@
+<svg version="1.1" width="600" height="310" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 309 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path d="M 300 10 l 50 50 h -100 l 50 -50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="290" y="45" style="font-size:13px;font-family:'Microsoft Yahei'">索引</text>
+<rect x="60" y="70" width="480" height="25" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 315 70 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 380 70 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 445 70 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="165" y="85" style="font-size:30px;font-family:'Arial'">......</text>
+<text x="320" y="87" style="font-size:13px;font-family:'Arial'">‘AA',(0,1)</text>
+<text x="385" y="87" style="font-size:13px;font-family:'Arial'">‘CC',(0,3)</text>
+<text x="470" y="85" style="font-size:30px;font-family:'Arial'">......</text>
+
+<rect x="150" y="140" width="300" height="150" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 150 165 h 270 v -25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 395 140 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 370 140 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 345 140 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="355" y="157" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="380" y="157" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="405" y="157" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="220" y="157" style="font-size:13px;font-family:'Microsoft Yahei'">数据页页头</text>
+
+<path d="M 290 290 v -25 h 160" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 360 265 v 25" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="390" y="282" style="font-size:13px;font-family:'Microsoft Yahei'">记录1</text>
+<text x="310" y="282" style="font-size:13px;font-family:'Microsoft Yahei'">记录3</text>
+
+<path d="M 357 98 v 30" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<path d="M 412 98 v 30" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 360 168 v 60 H 410 v 23" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<path d="M 410 168 v 20 H 325 v 63" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 455 140 h 5 a 5 5 0 0 1 5 5 v 65 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 65 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="475" y="219" style="font-size:13px;font-family:'Microsoft Yahei'">数据块</text>
+
+<path d="M 545 10 h 5 a 5 5 0 0 1 5 5 v 32 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 32 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="565" y="55" style="font-size:13px;font-family:'Microsoft Yahei'">索引</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg version="1.1" width="600" height="241" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 240 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<path d="M 120 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 140 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 160 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 180 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 200 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 220 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 240 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 260 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 320 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 360 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 380 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 400 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 420 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 440 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 460 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 480 10 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 100 32 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 180 32 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 260 32 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<rect x="145" y="100" width="310" height="100" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 207 100 v 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 269 100 v 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 331 100 v 100" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 393 100 v 100" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 120 49 v 10 H 176 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 200 49 v 20 H 300 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 280 49 v 10 H 424 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="505" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">vm文件</text>
+<text x="460" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+<text x="158" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">数据块</text>
+<rect x="100" y="10" width="400" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="173" y="217" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="235" y="217" style="font-size:15px;font-family:'Arial'">1</text>
+<text x="297" y="217" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="359" y="217" style="font-size:15px;font-family:'Arial'">3</text>
+<text x="421" y="217" style="font-size:15px;font-family:'Arial'">4</text>
+
+<text x="106" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="126" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="146" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="166" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="186" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="206" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="226" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="246" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="266" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="286" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="306" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="326" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="346" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="366" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="386" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="406" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="426" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="446" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="466" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="486" y="25" style="font-size:13px;font-family:'Arial'">0</text>
+</svg>

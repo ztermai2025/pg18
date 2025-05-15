@@ -1,0 +1,68 @@
+<svg version="1.1" width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 249 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<rect x="50" y="50" width="530" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 70 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 110 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 150 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 170 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 190 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 210 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 230 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 310 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 390 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 510 50 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 60 20 V 38" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 60 220 V 182" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="40" y="235" style="font-size:13px;font-family:'Microsoft Yahei'">列类型</text>
+
+<text x="22" y="15" style="font-size:13px;font-family:'Microsoft Yahei'">消息类型</text>
+<text x="85" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">表的Oid（4个字节）</text>
+<text x="187" y="105" style="font-size:13px;font-family:'Microsoft Yahei'">列的数量</text>
+
+<text x="300" y="105" style="font-size:13px;font-family:'Microsoft Yahei'">第二列的数据</text>
+<text x="230" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">第一列的数据</text>
+<text x="410" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">第三列的数据</text>
+
+<text x="310" y="165" style="font-size:13px;font-family:'Microsoft Yahei'">本列真正的数据</text>
+<text x="75" y="205" style="font-size:13px;font-family:'Microsoft Yahei'">本列的长度</text>
+
+<path d="M 80 100 V 82" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="68" y="115" style="font-size:13px;font-family:'Microsoft Yahei'">动作</text>
+
+<text x="175" y="65" style="font-size:13px;font-family:'Arial'">N</text>
+
+<path d="M 90 45 v -5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 230 45 v -5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 390 45 v -5 a 5 5 0 0 1 5 -5 h 50 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 50 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 190 72 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 310 72 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="520" y="62" style="font-size:28px;font-family:'Arial'">......</text>
+
+<rect x="50" y="150" width="500" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 70 150 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 150 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 110 150 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 150 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 150 150 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+
+<path d="M 390 72 v 50 H 50 V 138" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 510 72 v 20 L 550 120 V 138" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+<path d="M 70 172 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 150 185 v 5 a 5 5 0 0 0 5 5 h 190 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 190 a 5 5 0 0 0 5 -5 V 175" stroke="#000000" stroke-width="1" fill="none"/>
+</svg>

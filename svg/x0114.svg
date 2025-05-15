@@ -1,0 +1,93 @@
+<svg version="1.1" width="600" height="376" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 375 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />   
+
+<text x="280" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">共享内存</text>
+<path d="M 200 40 a 10 10 0 0 1 10 -10 h 180 a 10 10 0 0 1 10 10 v 104 a 10 10 0 0 1 -10 10 h -180 a 10 10 0 0 1 -10 -10 v -104" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<rect x="280" y="55" width="100" height="20" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<path d="M 300 55 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 350 55 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 315 55 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="295" y="49" style="font-size:13px;font-family:'Microsoft Yahei'">WAL缓冲池</text>
+<rect x="220" y="55" width="40" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="215" y="49" style="font-size:13px;font-family:'Microsoft Yahei'">其它组件</text>
+
+<text x="148" y="114" style="font-size:13px;font-family:'Microsoft Yahei'">共享池</text>
+<path d="M 190 110 H 208" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<rect x="220" y="90" width="160" height="40" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<path d="M 240 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 260 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 320 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 360 90 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+
+
+<ellipse cx="100" cy="320" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<text x="67" y="325" style="font-size:13px;font-family:'Microsoft Yahei'">客户端进程</text>
+<path d="M 90 296 V 222" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrowhead)"/>
+<path d="M 110 296 V 240 H 168" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<ellipse cx="100" cy="190" rx="50" ry="20" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<text x="70" y="195" style="font-size:13px;font-family:'Arial'">postmaster</text>
+<path d="M 150 180 l 35 -15 h 50 l 4 4" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrowhead)"/>
+
+<path d="M 154 190 h 60 v 18" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrowhead)"/>
+
+<text x="160" y="205" style="font-size:13px;font-family:'Courier New'">fork()</text>
+<text x="180" y="180" style="font-size:13px;font-family:'Courier New'">fork()</text>
+
+<ellipse cx="230" cy="240" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<text x="207" y="245" style="font-size:13px;font-family:'Arial'">postgres</text>
+<ellipse cx="290" cy="190" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<text x="253" y="195" style="font-size:13px;font-family:'Arial'">checkpointer</text>
+<ellipse cx="395" cy="190" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<text x="373" y="195" style="font-size:13px;font-family:'Arial'">bgwriter</text>
+
+<ellipse cx="480" cy="60" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<ellipse cx="480" cy="90" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<ellipse cx="480" cy="120" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<ellipse cx="480" cy="150" rx="50" ry="20" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<text x="455" y="155" style="font-size:13px;font-family:'Arial'">walwriter</text>
+<text x="457" y="125" style="font-size:13px;font-family:'Arial'">archiver</text>
+<text x="460" y="93" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="445" y="65" style="font-size:13px;font-family:'Arial'">AV launcher</text>
+
+<path d="M 190 275 H 550" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+<path d="M 50 275 H 150" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+
+<rect x="200" y="290" width="200" height="40" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<path d="M 220 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 240 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 260 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 280 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 320 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 360 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 380 290 v 40" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 230 288 v -17" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 230 218 V 142" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 290 132 V 158" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 290 212 V 278" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 370 132 V 160" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 370 210 V 278" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<rect x="420" y="300" width="130" height="20" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<path d="M 460 300 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 490 300 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 500 300 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 530 300 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 480 172 V 288" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 382 65 h 25 V 150 H 418" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="280" y="347" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+<text x="460" y="337" style="font-size:13px;font-family:'Microsoft Yahei'">WAL文件</text>
+</svg>

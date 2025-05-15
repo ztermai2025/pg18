@@ -1,0 +1,44 @@
+<svg version="1.1" width="600" height="121" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 120 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -20)">
+<rect x="140" y="60" width="320" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 150 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 160 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 170 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 190 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 200 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 210 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 230 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 240 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 250 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 270 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 280 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 290 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 310 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 320 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 330 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 340 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 350 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 360 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 370 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 380 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 390 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 400 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 410 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 420 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 430 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 440 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 450 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 140 58 v -5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 280 58 v -5 a 5 5 0 0 1 5 -5 h 80 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 80 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 240 82 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+<text x="140" y="38" style="font-size:13px;font-family:'Microsoft Yahei'">10比特的标志位</text>
+<text x="315" y="38" style="font-size:13px;font-family:'Microsoft Yahei'">18比特的引用计数</text>
+<text x="210" y="112" style="font-size:13px;font-family:'Microsoft Yahei'">4比特的使用计数</text>
+</g>
+</svg>

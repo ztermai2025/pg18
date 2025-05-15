@@ -1,0 +1,20 @@
+<svg version="1.1" width="600" height="126" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 125 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<rect x="45" y="5" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="157" y="5" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="269" y="5" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="381" y="5" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="493" y="5" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="63" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">解析</text>
+<text x="175" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">分析</text>
+<text x="287" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">重写</text>
+<text x="399" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">规划</text>
+<text x="511" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">执行</text>
+
+<path d="M 20 55 H 33" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 109 55 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 221 55 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 333 55 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 445 55 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+</svg>

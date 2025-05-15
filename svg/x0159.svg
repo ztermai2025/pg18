@@ -1,0 +1,43 @@
+<svg version="1.1" width="600" height="401" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 400 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -10)">  
+<text x="31" y="35" style="font-size:15px;font-family:'Arial'">8KB</text>
+<text x="195" y="35" style="font-size:15px;font-family:'Arial'">16KB</text>
+<text x="367" y="35" style="font-size:15px;font-family:'Arial'">32KB</text>
+<text x="537" y="35" style="font-size:15px;font-family:'Arial'">64KB</text>
+
+<rect x="25" y="40" width="40" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="25" y="50" width="40" height="30" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<rect x="195" y="40" width="40" height="80" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<rect x="365" y="40" width="40" height="160" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<rect x="535" y="40" width="40" height="220" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<rect x="535" y="260" width="40" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<text x="40" y="70" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="210" y="70" style="font-size:15px;font-family:'Arial'">1</text>
+<text x="380" y="70" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="550" y="70" style="font-size:15px;font-family:'Arial'">3</text>
+
+
+<path d="M 67 60 h 116" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 237 60 h 116" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 407 60 H 465 V 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 533 60 H 475 V 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 363 70 h -116" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 193 70 h -116" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+
+<path d="M 533 260 h -5 a 5 5 0 0 0 -5 5 v 40 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 40 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="464" y="315" style="font-size:13px;font-family:'Microsoft Yahei'">空闲空间</text>
+<text x="25" y="95" style="font-size:13px;font-family:'Microsoft Yahei'">初始块</text>
+<text x="535" y="376" style="font-size:13px;font-family:'Microsoft Yahei'">活跃块</text>
+
+<rect x="440" y="120" width="62" height="100" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<path d="M 455 118 V 70 H 417" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 485 118 V 70 H 523" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="438" y="235" style="font-size:13px;font-family:'Microsoft Yahei'">单片内存块</text>
+  </g>
+</svg>

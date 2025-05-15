@@ -1,0 +1,52 @@
+<svg version="1.1" width="600" height="310" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 309 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="265" y="30" style="font-size:15px;font-family:'Arial'">12345_fsm</text>
+<text x="280" y="300" style="font-size:15px;font-family:'Microsoft Yahei'">数据文件</text>
+<text x="52" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="152" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="102" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="202" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="402" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="452" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+<text x="502" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">数据块</text>
+
+<rect x="250" y="40" width="100" height="62" style="fill:rgb(218,232,252);stroke:#0000FF;stroke-width:1" />
+<path d="M 250 92 h 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 270 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 280 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 290 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 310 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 320 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 330 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 340 92 v 10" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 300 40 L 250 87 h 100 z" stroke="#0000FF" stroke-width="1" fill="rgb(255,242,204)"/>
+
+<rect x="50" y="180" width="500" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 100 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 150 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 200 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 250 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 400 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 450 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 500 180 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="280" y="230" style="font-size:45px;font-family:'Arial'">......</text>
+<path d="M 553 180 h 5 a 5 5 0 0 1 5 5 v 40 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 40 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="580" y="235" style="font-size:15px;font-family:'Arial'">8K</text>
+
+
+<path d="M 255 105 v 20 H 75 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 265 105 v 30 H 125 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 275 105 v 40 H 175 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 285 105 v 50 H 225 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 345 105 v 20 H 525 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 335 105 v 30 H 475 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 325 105 v 40 H 425 V 167" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+</svg>

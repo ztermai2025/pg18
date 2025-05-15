@@ -1,0 +1,29 @@
+<svg version="1.1" width="600" height="191" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 190 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -10)">
+<path d="M 20 120 h 550" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="558" y="115" style="font-size:15px;font-family:'Arial'">T</text>
+
+<path d="M 60 100 h 140" stroke="#000000" stroke-width="8" fill="none"/>
+<path d="M 230 70 h 160" stroke="#000000" stroke-width="8" fill="none"/>
+<path d="M 420 40 h 100" stroke="#000000" stroke-width="8" fill="none"/>
+
+<path d="M 60 100 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+<path d="M 230 70 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+<path d="M 420 40 V 120" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+<path d="M 300 40 V 170" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+
+<text x="60" y="90" style="font-size:13px;font-family:'Microsoft Yahei'">事务1</text>
+<text x="230" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">事务2</text>
+<text x="420" y="30" style="font-size:13px;font-family:'Microsoft Yahei'">事务3</text>
+<text x="305" y="170" style="font-size:13px;font-family:'Microsoft Yahei'">快照</text>
+
+<g transform="translate(286, 130) scale(0.3 0.3)">
+<path d="M 0 30 a 10 10 0 0 1 10 -10 h 10 v -5 a 10 10 0 0 1 10 -10 h 30 a 10 10 0 0 1 10 10 v 5 h 10 a 10 10 0 0 1 10 10 v 30 a 10 10 0 0 1 -10 10 h -70 a 10 10 0 0 1 -10 -10 v -30" stroke="#000000" stroke-width="1" fill="#000000" />
+<circle cx="45" cy="42" r="17" fill="#FFFFFF" />
+<circle cx="45" cy="42" r="9" fill="#000000" />
+<circle cx="13" cy="33" r="4" fill="#FFFFFF" />
+</g>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg version="1.1" width="600" height="201" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 201 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<rect x="269" y="60" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="159" y="60" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="49" y="60" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="379" y="60" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="489" y="60" width="62" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 113 80 h 34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 223 80 h 34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 333 80 h 34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 443 80 h 34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<path d="M 487 140 h -34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 377 140 h -34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 267 140 h -34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 157 140 h -34" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<path d="M 80 162 v 18 H 520 V 172" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<text x="49" y="55" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="159" y="55" style="font-size:15px;font-family:'Arial'">A1</text>
+<text x="115" y="75" style="font-size:13px;font-family:'Arial'">LR</text>
+<text x="465" y="135" style="font-size:13px;font-family:'Arial'">MR</text>
+<text x="85" y="175" style="font-size:13px;font-family:'Arial'">MR</text>
+</svg>

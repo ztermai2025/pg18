@@ -1,0 +1,33 @@
+<svg version="1.1" width="600" height="270" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 160 40 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 70 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 100 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 130 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 160 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 190 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 220 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 250 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 300 40 V 250" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="200" y="35" style="font-size:15px;font-family:'Arial'">VALUES</text>
+<text x="320" y="35" style="font-size:15px;font-family:'Arial'">FREE SPACE</text>
+
+<text x="220" y="60" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="220" y="90" style="font-size:15px;font-family:'Arial'">1</text>
+<text x="220" y="120" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="220" y="150" style="font-size:15px;font-family:'Arial'">3</text>
+<text x="210" y="178" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="220" y="210" style="font-size:15px;font-family:'Arial'">254</text>
+<text x="220" y="240" style="font-size:15px;font-family:'Arial'">255</text>
+
+<text x="310" y="60" style="font-size:15px;font-family:'Arial'">0 ~ 31 bytes</text>
+<text x="310" y="90" style="font-size:15px;font-family:'Arial'">32 ~ 63 bytes</text>
+<text x="310" y="120" style="font-size:15px;font-family:'Arial'">63 ~ 95 bytes</text>
+<text x="310" y="150" style="font-size:15px;font-family:'Arial'">96 ~ 127 bytes</text>
+<text x="330" y="178" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="310" y="210" style="font-size:15px;font-family:'Arial'">8128 ~ 8159 bytes</text>
+<text x="310" y="240" style="font-size:15px;font-family:'Arial'">8160 ~ 8191 bytes</text>
+</svg>

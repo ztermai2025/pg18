@@ -1,0 +1,46 @@
+<svg version="1.1" width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 199 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="10" y="20" style="font-size:13px;font-family:'Courier New'">archive_mode = on</text>
+<text x="10" y="40" style="font-size:13px;font-family:'Courier New'">archive_command = 'xxxxxxxx'</text>
+
+<text x="390" y="20" style="font-size:13px;font-family:'Courier New'">archive_mode = always</text>
+<text x="390" y="40" style="font-size:13px;font-family:'Courier New'">archive_command = '......'</text>
+
+<g transform="translate(50, 50)">
+<ellipse cx="31" cy="10" rx="30" ry="10" style="fill:rgb(115,131,191);stroke:rgb(115,131,191);stroke-width:1" />
+<path d="M 1 15 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 35 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 55 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<circle cx="50" cy="29" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="49" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="69" r="3" fill="#FFFFFF" />
+</g>
+
+<g transform="translate(450, 50)">
+<ellipse cx="31" cy="10" rx="30" ry="10" style="fill:rgb(115,131,191);stroke:rgb(115,131,191);stroke-width:1" />
+<path d="M 1 15 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 35 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 55 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<circle cx="50" cy="29" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="49" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="69" r="3" fill="#FFFFFF" />
+</g>
+
+<path d="M 120 90 H 430" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="120" y="70" style="font-size:13px;font-family:'Microsoft Yahei'">主库</text>
+<text x="415" y="70" style="font-size:13px;font-family:'Microsoft Yahei'">备库</text>
+
+<path d="M 85 135 V 180" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 485 135 V 180" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<rect x="90" y="140" width="45" height="15" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="90" y="160" width="45" height="15" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+
+<rect x="490" y="140" width="45" height="15" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<rect x="490" y="160" width="45" height="15" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<text x="140" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">归档的WAL文件</text>
+<text x="390" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">归档的WAL文件</text>
+</svg>

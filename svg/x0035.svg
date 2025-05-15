@@ -1,0 +1,26 @@
+<svg version="1.1" width="600" height="120" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<g transform="translate(0, -15)">
+<path d="M 20 80 H 580 " stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 20 100 H 580 " stroke="#0000FF" stroke-width="1" fill="none" />
+<rect x="60" y="80" width="320" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 155 80 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 80 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 80 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="30" y="92" style="font-size:25px;font-family:'Arial'">...</text>
+<text x="550" y="92" style="font-size:25px;font-family:'Arial'">...</text>
+<text x="160" y="115" style="font-size:13px;font-family:'Microsoft Yahei'">WAL记录</text>
+<text x="335" y="94" style="font-size:13px;font-family:'Arial'">n</text>
+<text x="272" y="94" style="font-size:13px;font-family:'Arial'">n-1</text>
+<text x="200" y="94" style="font-size:13px;font-family:'Arial'">n-2</text>
+<text x="100" y="94" style="font-size:13px;font-family:'Arial'">n-3</text>
+
+<path d="M 380 40 V 65 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 375 55 h -60 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+<path d="M 385 55 h 60 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+<text x="275" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">过去</text>
+<text x="460" y="60" style="font-size:13px;font-family:'Microsoft Yahei'">未来</text>
+<text x="337" y="35" style="font-size:13px;font-family:'Microsoft Yahei'">当前WAL指针</text>
+</g>
+</svg>

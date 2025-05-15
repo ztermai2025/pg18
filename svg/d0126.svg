@@ -1,0 +1,56 @@
+<svg version="1.1" width="600" height="201" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 200 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+  <g transform="translate(0, -20)">
+<g transform="translate(120, 40)">
+<rect x="0" y="0" width="80" height="150" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="80" height="50" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 25 h 80 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<text x="22" y="15" style="font-size:13px;font-family:'Courier New'">link</text>
+<text x="5" y="40" style="font-size:13px;font-family:'Courier New'">hashvalue</text>
+<rect x="0" y="50" width="80" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="35" y="74" style="font-size:15px;font-family:'Arial'">K</text>
+<text x="35" y="124" style="font-size:15px;font-family:'Arial'">V</text>
+</g>
+
+<g transform="translate(260, 40)">
+<rect x="0" y="0" width="80" height="150" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="80" height="50" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 25 h 80 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<text x="22" y="15" style="font-size:13px;font-family:'Courier New'">link</text>
+<text x="5" y="40" style="font-size:13px;font-family:'Courier New'">hashvalue</text>
+<rect x="0" y="50" width="80" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="35" y="74" style="font-size:15px;font-family:'Arial'">K</text>
+<text x="35" y="124" style="font-size:15px;font-family:'Arial'">V</text>
+</g>
+
+<g transform="translate(400, 40)">
+<rect x="0" y="0" width="80" height="150" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="80" height="50" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 0 25 h 80 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<text x="22" y="15" style="font-size:13px;font-family:'Courier New'">link</text>
+<text x="5" y="40" style="font-size:13px;font-family:'Courier New'">hashvalue</text>
+<rect x="0" y="50" width="80" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="35" y="74" style="font-size:15px;font-family:'Arial'">K</text>
+<text x="35" y="124" style="font-size:15px;font-family:'Arial'">V</text>
+</g>
+
+<path d="M 185 52 h 63" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 325 52 h 63" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 465 52 h 63" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="542" y="55" style="font-size:13px;font-family:'Courier New'">NULL</text>
+
+<text x="117" y="32" style="font-size:13px;font-family:'Courier New'">HASHELEMENT</text>
+<text x="10" y="55" style="font-size:13px;font-family:'Courier New'">HASHBUCKET</text>
+<path d="M 90 52 H 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 485 90 h 5 a 5 5 0 0 1 5 5 v 40 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 40 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 397 90 h -5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="505" y="144" style="font-size:13px;font-family:'Courier New'">entrysize</text>
+
+<text x="375" y="120" style="font-size:13px;font-family:'Courier New'" transform="rotate(-90 385 130)">keysize</text>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg version="1.1" width="600" height="286" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 285 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<rect x="50" y="60" width="500" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 90 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 130 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 170 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 340 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 510 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 470 60 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 180 55 v -5 a 5 5 0 0 1 5 -5 h 175 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 175 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 70 38 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 110 102 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 150 38 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 175 102 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<path d="M 110 58 v -40 H 365 V 28" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 150 82 v 40 H 485 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 495 82 v 50 H 240 V 148" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<rect x="60" y="160" width="490" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="200" width="490" height="65" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 100 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 140 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 340 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 510 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 470 160 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 80 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 120 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 160 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 200 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 240 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 280 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 320 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 490 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+<path d="M 530 182 v 6" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"  />
+
+<path d="M 100 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 140 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 180 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 340 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 510 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 470 200 v 65" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="50" y="32" style="font-size:13px;font-family:'Courier New'">btype</text>
+<text x="130" y="32" style="font-size:13px;font-family:'Courier New'">current</text>
+<text x="50" y="113" style="font-size:13px;font-family:'Courier New'">ring_size</text>
+<text x="160" y="113" style="font-size:13px;font-family:'Courier New'">current_was_in_ring</text>
+<text x="385" y="72" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="385" y="172" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="385" y="235" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="67" y="230" style="font-size:13px;font-family:'Microsoft Yahei'">数据</text>
+<text x="73" y="248" style="font-size:13px;font-family:'Microsoft Yahei'">页</text>
+</svg>

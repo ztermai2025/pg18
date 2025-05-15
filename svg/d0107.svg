@@ -1,0 +1,27 @@
+<svg version="1.1" width="600" height="220" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<rect x="200" y="40" width="200" height="124" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="300" y="40" width="80" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 320 40 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 340 40 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 360 40 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<rect x="220" y="124" width="180" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="144" width="120" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="40" width="100" height="20" style="fill:rgb(27,161,226);stroke:#0000FF;stroke-width:1" />
+<rect x="320" y="144" width="80" height="20" style="fill:rgb(227,200,0);stroke:#0000FF;stroke-width:1" />
+
+<path d="M 250 144 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 300 124 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 370 124 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 370 62 v 30 h -110 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 350 62 v 10 l -10 10 v 28" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 200 38 v -5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 320 166 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+
+<text x="300" y="195" style="font-size:13px;font-family:'Courier New'">BrinSpecialSpace</text>
+<text x="200" y="18" style="font-size:13px;font-family:'Courier New'">PageHeaderData</text>
+</svg>

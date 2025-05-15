@@ -1,0 +1,54 @@
+<svg version="1.1" width="600" height="190" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 189 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<text x="20" y="40" style="font-size:13px;font-family:'Microsoft Yahei'">内存(共享池)</text>
+<text x="10" y="120" style="font-size:13px;font-family:'Microsoft Yahei'">磁盘(数据文件)</text>
+
+<g transform="translate(50, -30)">
+<rect x="50" y="40" width="310" height="50" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="81" y="40" width="62" height="50" style="fill:#DDDDDD;stroke:#0000FF;stroke-width:1" />
+<rect x="174" y="40" width="93" height="50" style="fill:#DDDDDD;stroke:#0000FF;stroke-width:1" />
+<rect x="298" y="40" width="31" height="50" style="fill:#DDDDDD;stroke:#0000FF;stroke-width:1" />
+<path d="M 112 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 205 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 236 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+
+<g transform="translate(0, 80)">
+<rect x="50" y="40" width="310" height="50" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 81 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 112 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 143 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 174 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 205 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 236 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 267 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 298 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 329 40 v 50" stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+
+<path d="M 96 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 127 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 189 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 220 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 251 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 313 93 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<g transform="translate(0, -110)">
+<path d="M 10 300 H 530" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="20" y="295" width="38" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="61" y="295" width="23" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="87" y="295" width="70" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="160" y="295" width="33" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="197" y="295" width="90" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="292" y="295" width="48" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+<rect x="344" y="295" width="17" height="10" style="fill:#FFFFFF;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 390 250 h -20 V 285" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<circle cx="370" cy="300" r="3"/>
+<text x="495" y="295" style="font-size:15px;font-family:'Arial'">WAL</text>
+<text x="365" y="317" style="font-size:15px;font-family:'Arial'">A</text>
+</g>
+</g>
+</svg>

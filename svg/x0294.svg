@@ -1,0 +1,35 @@
+<svg version="1.1" width="600" height="160" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 159 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<text x="400" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">快照</text>
+<path d="M 50 40 H 550" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 420 30 V 160" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<path d="M 150 60 H 490" stroke="#0000FF" stroke-width="1" fill="none"/>
+<circle cx="150" cy="60" r="3" fill="#0000FF" />
+<circle cx="490" cy="60" r="3" fill="#0000FF" />
+
+<path d="M 180 80 H 470" stroke="#0000FF" stroke-width="1" fill="none"/>
+<circle cx="180" cy="80" r="3" fill="#0000FF" />
+<circle cx="470" cy="80" r="3" fill="#0000FF" />
+
+<path d="M 230 100 H 370" stroke="#0000FF" stroke-width="1" fill="none"/>
+<circle cx="230" cy="100" r="3" fill="#0000FF" />
+<circle cx="370" cy="100" r="3" fill="#0000FF" />
+
+<path d="M 260 120 H 500" stroke="#0000FF" stroke-width="1" fill="none"/>
+<circle cx="260" cy="120" r="3" fill="#0000FF" />
+<circle cx="500" cy="120" r="3" fill="#0000FF" />
+
+<path d="M 300 140 H 405" stroke="#0000FF" stroke-width="1" fill="none"/>
+<circle cx="300" cy="140" r="3" fill="#0000FF" />
+<circle cx="405" cy="140" r="3" fill="#0000FF" />
+
+<text x="125" y="65" style="font-size:13px;font-family:'Arial'">T1</text>
+<text x="155" y="85" style="font-size:13px;font-family:'Arial'">T2</text>
+<text x="205" y="105" style="font-size:13px;font-family:'Arial'">T3</text>
+<text x="235" y="125" style="font-size:13px;font-family:'Arial'">T4</text>
+<text x="275" y="145" style="font-size:13px;font-family:'Arial'">T5</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg version="1.1" width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 10 50 h 580" stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 580" stroke="#0000FF" stroke-width="1"/>
+<rect x="40" y="50" width="520" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 480 45 v -8 a 20 20 0 0 0 -40 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 440 85 v 8 a 40 20 0 0 1 -80 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 360 45 v -8 a 30 20 0 0 0 -60 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 300 85 v 8 a 50 20 0 0 1 -100 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 200 45 v -8 a 30 20 0 0 0 -60 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 140 85 v 8 a 50 20 0 0 1 -100 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 560 85 v 8 a 40 20 0 0 1 -80 0" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<path d="M 480 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 440 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 360 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 300 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 200 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 140 50 v 30" stroke="#0000FF" stroke-width="1"/>
+</svg>

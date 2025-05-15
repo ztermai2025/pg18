@@ -1,0 +1,28 @@
+<svg version="1.1" width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 149 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<text x="282" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">数据块</text>
+<rect x="275" y="30" width="50" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 275 80 h 50" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<ellipse cx="150" cy="50" rx="50" ry="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="132" y="55" style="font-size:13px;font-family:'Microsoft Yahei'">读进程</text>
+
+<ellipse cx="450" cy="50" rx="50" ry="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="432" y="55" style="font-size:13px;font-family:'Microsoft Yahei'">写进程</text>
+
+<path d="M 272 50 H 213" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 397 50 H 338" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 272 105 H 150 V 83" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 450 73 V 105 H 338" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="287" y="60" style="font-size:13px;font-family:'Arial'">4KB</text>
+<text x="287" y="110" style="font-size:13px;font-family:'Arial'">4KB</text>
+
+<text x="240" y="45" style="font-size:15px;font-family:'Arial'">1</text>
+<text x="240" y="100" style="font-size:15px;font-family:'Arial'">4</text>
+<text x="365" y="45" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="365" y="100" style="font-size:15px;font-family:'Arial'">3</text>
+</svg>

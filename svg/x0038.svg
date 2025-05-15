@@ -1,0 +1,128 @@
+<svg version="1.1" width="600" height="411" 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:ns1="http://sozi.baierouge.fr"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path d="M 10 410 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+<path d="M 555 100 V 288" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<text x="60" y="25" style="font-size:13px;font-family:'Arial'">BEGIN;</text>
+<text x="60" y="45" style="font-size:13px;font-family:'Arial'">INSERT INTO mx VALUES('AAA');</text>
+<text x="60" y="65" style="font-size:13px;font-family:'Arial'">COMMIT;</text>
+
+<text x="390" y="25" style="font-size:13px;font-family:'Arial'">BEGIN;</text>
+<text x="390" y="45" style="font-size:13px;font-family:'Arial'">INSERT INTO mx VALUES('BBB');</text>
+<text x="390" y="65" style="font-size:13px;font-family:'Arial'">COMMIT;</text>
+
+<path d="M 20 100 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="570" y="95" style="font-size:15px;font-family:'Arial'">T</text>
+
+<path d="M 40 135 v -17" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+<text x="15" y="150" style="font-size:13px;font-family:'Microsoft Yahei'">重做点</text>
+
+<circle cx="40" cy="100" r="4" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+
+<path d="M 100 70 V 85 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 430 70 V 85 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 185 130 h 40 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 365 130 h 40 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<g transform="translate(50, 100)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 0</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+</g>
+
+<g transform="translate(230, 100)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+</g>
+
+<g transform="translate(410, 100)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 2</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+<rect x="20" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="25" y="65" style="font-size:15px;font-family:'Arial'">BBB</text>
+</g>
+
+<text x="20" y="193" style="font-size:13px;font-family:'Microsoft Yahei'">共享池</text>
+<path d="M 20 200 H 580 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+
+<text x="20" y="263" style="font-size:13px;font-family:'Microsoft Yahei'">WAL文件</text>
+<path d="M 20 270 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g>
+<rect x="200" y="245" width="140" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="245" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="205" y="260" style="font-size:15px;font-family:'Arial'">AAA</text>
+<text x="275" y="260" style="font-size:15px;font-family:'Arial'">COMMIT</text>
+<path d="M 270 245 v 20 " stroke="#000000" stroke-width="1" fill="none" />
+</g>
+
+<g transform="translate(200, 0)">
+<rect x="200" y="245" width="140" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="200" y="245" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="205" y="260" style="font-size:15px;font-family:'Arial'">BBB</text>
+<text x="275" y="260" style="font-size:15px;font-family:'Arial'">COMMIT</text>
+<path d="M 270 245 v 20 " stroke="#000000" stroke-width="1" fill="none" />
+</g>
+
+<path d="M 200 305 v -20 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="180" y="325" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+
+<path d="M 450 220 H 400 V 230" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="455" y="225" style="font-size:15px;font-family:'Arial'">LSN 2</text>
+
+<circle cx="200" cy="270" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="400" cy="270" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+
+
+<path d="M 350 175 V 295" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(300, 300)">
+<rect x="10" y="10" width="120" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="10" y="10" width="53" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="15" y="25" style="font-size:15px;font-family:'Arial'">LSN 1</text>
+<rect x="100" y="50" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="50" width="40" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="65" y="65" style="font-size:15px;font-family:'Arial'">AAA</text>
+</g>
+
+<path d="M 20 375 H 580 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="20" y="368" style="font-size:13px;font-family:'Microsoft Yahei'">数据文件</text>
+
+<g transform="translate(518, 145) scale(0.1 0.1)">
+    <path id="path2816"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:12.437;fill:#d40000"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        transform="matrix(.80404 0 0 .80404 136.23 145.31)"
+        d="m710.96 880.08-280.91-134.02-40.45 239.91-214.27-218.88-277.07 151.39 153.57-295.13-191.93-54.66 179.78-127.21-178.03-190.01 277.35 70.06 93.76-206.15 143.2 176.24 330.37-137.17-151.79 245.37 254.12 93.76-247.31 100.55 149.61 285.95z"/>
+    <path id="path3591"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:6.9315;fill:#ffff00"
+        d="m624.93 767.38-166.55-70.41-36.83 149.42-105.14-137.7-162.98 77.23 94.16-157.34-115.54-40.47 108.77-60.89-99.23-105.9l154.58 39.045 45.108-116.32 86.952 99.648 188.41-100.73-90.31 138.18 155.91 63.679-159.26 61.758 101.95 160.79z"
+    />
+    <path id="path3593"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:4.1588;fill:#ffffff"
+        d="m543.53 695.44-105.65-39.386-22.097 89.649-63.078-82.618-97.789 46.335 56.493-94.4-82.18-31.422 78.118-29.394-59.533-63.535 92.744 23.427 27.064-69.79 52.17 59.787 107.33-76.153-55.613 80.05 102.12 43.921-96.98 49.911 66.884 93.617z"
+    />
+</g>
+</svg>

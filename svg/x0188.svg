@@ -1,0 +1,24 @@
+<svg version="1.1" width="600" height="201" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 200 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<path d="M 70 75 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 70 115 H 570" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<rect x="20" y="60" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="30" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">主库</text>
+<rect x="20" y="100" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="30" y="120" style="font-size:13px;font-family:'Microsoft Yahei'">备库</text>
+
+<circle cx="150" cy="115" r="2" fill="#FF0000" stroke="#000000" stroke-width="2" />
+<circle cx="350" cy="115" r="2" fill="#FF0000" stroke="#000000" stroke-width="2" />
+<circle cx="200" cy="75" r="2" fill="#FF0000" stroke="#000000" stroke-width="2" />
+<circle cx="300" cy="75" r="2" fill="#FF0000" stroke="#000000" stroke-width="2" />
+<path d="M 200 45 V 60" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 45 V 60" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 150 145 V 130" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 145 V 130" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="123" y="160" style="font-size:15px;font-family:'Arial'">SELECT</text>
+<text x="168" y="40" style="font-size:15px;font-family:'Arial'">UPDATE</text>
+<text x="270" y="40" style="font-size:15px;font-family:'Arial'">VACUUM</text>
+<text x="322" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">查询冲突</text>
+</svg>

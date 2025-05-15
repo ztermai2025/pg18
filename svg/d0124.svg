@@ -1,0 +1,125 @@
+<svg version="1.1" width="600" height="360" 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:ns1="http://sozi.baierouge.fr"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(0, -50)">
+<text x="40" y="395" style="font-size:15px;font-family:'Arial'">data file</text>
+<text x="40" y="315" style="font-size:15px;font-family:'Arial'">WAL file</text>
+<text x="40" y="118" style="font-size:15px;font-family:'Arial'">shared buffer</text>
+
+<text x="305" y="90" style="font-size:13px;font-family:'Arial'">INSERT ('B')</text>
+<text x="455" y="90" style="font-size:13px;font-family:'Arial'">INSERT ('C')</text>
+
+<path d="M 10 100 H 570 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 10 200 H 580 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 10 298 H 570 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 10 380 H 570 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 34 80 V 400" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<text x="5" y="75" style="font-size:13px;font-family:'Arial'">RedoPoint</text>
+
+<path d="M 190 310 V 180" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 242 136 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 392 136 h 36" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 542 136 h 15 V 302" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 340 170 V 220" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 490 170 V 262" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<rect x="50" y="275" width="80" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<text x="56" y="290" style="font-size:13px;font-family:'Arial'">CheckPoint</text>
+<path d="M 90 270 a 28 28 0 0 0 -56 0 v 15" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<rect x="450" y="275" width="80" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="450" y="275" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="474" y="290" style="font-size:13px;font-family:'Arial'">COMMIT</text>
+<text x="456" y="290" style="font-size:13px;font-family:'Arial'">C</text>
+
+<g transform="translate(440, 105)">
+<rect x="0" y="0" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="45" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="42" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="57" style="font-size:13px;font-family:'Arial'">A</text>
+<rect x="30" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="36" y="57" style="font-size:13px;font-family:'Arial'">B</text>
+<rect x="10" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="16" y="57" style="font-size:13px;font-family:'Arial'">C</text>
+<text x="5" y="15" style="font-size:13px;font-family:'Arial'">LSN 2</text>
+</g>
+<g transform="translate(290, 105)">
+<rect x="0" y="0" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="45" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="42" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="57" style="font-size:13px;font-family:'Arial'">A</text>
+<rect x="30" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="36" y="57" style="font-size:13px;font-family:'Arial'">B</text>
+<text x="5" y="15" style="font-size:13px;font-family:'Arial'">LSN 1</text>
+</g>
+<g transform="translate(290, 233)">
+<rect x="0" y="0" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="45" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="42" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="57" style="font-size:13px;font-family:'Arial'">A</text>
+<rect x="30" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="36" y="57" style="font-size:13px;font-family:'Arial'">B</text>
+<text x="5" y="15" style="font-size:13px;font-family:'Arial'">LSN 1</text>
+</g>
+<g transform="translate(140, 105)">
+<rect x="0" y="0" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="45" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="42" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="57" style="font-size:13px;font-family:'Arial'">A</text>
+<text x="5" y="15" style="font-size:13px;font-family:'Arial'">LSN 0</text>
+</g>
+
+<g transform="translate(140, 313)">
+<rect x="0" y="0" width="100" height="62" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="0" y="0" width="45" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<rect x="70" y="42" width="30" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="50" y="42" width="20" height="20" style="fill:rgb(248,206,204);stroke:#0000FF;stroke-width:1" />
+<text x="56" y="57" style="font-size:13px;font-family:'Arial'">A</text>
+<text x="5" y="15" style="font-size:13px;font-family:'Arial'">LSN 0</text>
+</g>
+
+<g transform="translate(480, 313)">
+<rect x="0" y="0" width="100" height="62" style="fill:#D0D0D0;stroke:#0000FF;stroke-width:1" />
+<text x="25" y="35" style="font-size:13px;font-family:'Arial'">Corrupted</text>
+</g>
+<text x="306" y="315" style="font-size:13px;font-family:'Arial'">FPI / backup block</text>
+<text x="433" y="335" style="font-size:13px;font-family:'Arial'">LSN 2</text>
+<path d="M 450 320 V 310" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 290 320 V 310" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="273" y="335" style="font-size:13px;font-family:'Arial'">LSN 1</text>
+
+<g transform="translate(520, 160) scale(0.1 0.1)">
+    <path id="path2816"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:12.437;fill:#d40000"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        transform="matrix(.80404 0 0 .80404 136.23 145.31)"
+        d="m710.96 880.08-280.91-134.02-40.45 239.91-214.27-218.88-277.07 151.39 153.57-295.13-191.93-54.66 179.78-127.21-178.03-190.01 277.35 70.06 93.76-206.15 143.2 176.24 330.37-137.17-151.79 245.37 254.12 93.76-247.31 100.55 149.61 285.95z"/>
+    <path id="path3591"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:6.9315;fill:#ffff00"
+        d="m624.93 767.38-166.55-70.41-36.83 149.42-105.14-137.7-162.98 77.23 94.16-157.34-115.54-40.47 108.77-60.89-99.23-105.9l154.58 39.045 45.108-116.32 86.952 99.648 188.41-100.73-90.31 138.18 155.91 63.679-159.26 61.758 101.95 160.79z"
+    />
+    <path id="path3593"
+        sodipodi:nodetypes="ccccccccccccccccc"
+        style="fill-rule:evenodd;stroke:#000000;stroke-miterlimit:8.8;stroke-width:4.1588;fill:#ffffff"
+        d="m543.53 695.44-105.65-39.386-22.097 89.649-63.078-82.618-97.789 46.335 56.493-94.4-82.18-31.422 78.118-29.394-59.533-63.535 92.744 23.427 27.064-69.79 52.17 59.787 107.33-76.153-55.613 80.05 102.12 43.921-96.98 49.911 66.884 93.617z"
+    />
+</g>
+</g>
+</svg>

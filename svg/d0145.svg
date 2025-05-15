@@ -1,0 +1,39 @@
+<svg version="1.1" width="600" height="201" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 200 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<g transform="translate(80, 0)">
+<rect x="300" y="10" width="40" height="160" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<path d="M 300 50 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 90 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 130 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<rect x="380" y="15" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="55" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="95" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="380" y="135" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 320 30 H 368" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 320 70 H 368" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 320 110 H 368" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 320 150 H 368" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+</g>
+
+<g transform="translate(40, 0)">
+<rect x="0" y="10" width="40" height="160" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<path d="M 0 50 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 0 90 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 0 130 h 40" stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+
+<path d="M 60 30 H 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 152 30 h 16" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 212 30 h 16" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 272 30 h 16" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<g transform="translate(120, 0)">
+<rect x="0" y="15" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="60" y="15" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="120" y="15" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="180" y="15" width="30" height="30" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+</g>
+</svg>

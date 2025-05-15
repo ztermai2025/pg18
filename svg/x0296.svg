@@ -1,0 +1,39 @@
+<svg version="1.1" width="600" height="240" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 239 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<g transform="translate(-70, -50)">
+<text x="265" y="70" style="font-size:13px;font-family:'Microsoft Yahei'">WAL发送进程</text>
+<ellipse cx="300" cy="130" rx="150" ry="50" style="fill:none;stroke:rgb(115,131,191);stroke-width:1" />
+
+<path d="M 200 100 h 200 v 60 h -200 v -60" stroke="#0000FF" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<rect x="210" y="130" width="120" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 230 130 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 250 130 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 270 130 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 290 130 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 310 130 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<rect x="340" y="110" width="50" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<rect x="262" y="220" width="75" height="47" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="182" y="220" width="75" height="47" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="102" y="220" width="75" height="47" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<rect x="342" y="220" width="75" height="47" style="fill:none;stroke:#0000FF;stroke-width:1" />
+
+<path d="M 220 153 v 30 H 140 V 208" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 240 153 v 40 H 220 V 208" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 260 153 v 40 H 300 V 208" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 320 153 v 40 H 380 V 208" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="110" y="250" style="font-size:13px;font-family:'Microsoft Yahei'">回调函数A</text>
+<text x="190" y="250" style="font-size:13px;font-family:'Microsoft Yahei'">回调函数B</text>
+<text x="270" y="250" style="font-size:13px;font-family:'Microsoft Yahei'">回调函数C</text>
+<text x="350" y="250" style="font-size:13px;font-family:'Microsoft Yahei'">回调函数D</text>
+</g>
+
+<path d="M 450 80 h 50" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 450 80 H 395" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+</svg>

@@ -1,0 +1,31 @@
+<svg version="1.1" width="600" height="380" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<rect x="200" y="40" width="200" height="300" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 460 20 v 330" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="470" y="350" style="font-size:15px;font-family:'Arial'">time</text>
+
+<path d="M 200 70 h 200" stroke="#0000FF" stroke-width="1"/>
+<path d="M 200 220 h 200" stroke="#0000FF" stroke-width="1"/>
+<path d="M 200 310 h 200" stroke="#0000FF" stroke-width="1"/>
+
+<rect x="200" y="100" width="200" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<text x="210" y="119" style="font-size:13px;font-family:'Arial'">xid=789</text>
+<path d="M 265 100 v 30" stroke="#0000FF" stroke-width="1"/>
+
+<rect x="200" y="160" width="200" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<text x="210" y="179" style="font-size:13px;font-family:'Arial'">xid=789</text>
+<path d="M 265 160 v 30" stroke="#0000FF" stroke-width="1"/>
+
+<rect x="200" y="250" width="200" height="30" style="fill:rgb(213,232,212);stroke:#0000FF;stroke-width:1" />
+<text x="210" y="269" style="font-size:13px;font-family:'Arial'">xid=789</text>
+<path d="M 265 250 v 30" stroke="#0000FF" stroke-width="1"/>
+<text x="300" y="269" style="font-size:13px;font-family:'Arial'">COMMIT</text>
+
+<path d="M 197 110 H 187 a 30 30 0 0 0 0 60 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 197 178 H 187 a 40 45 0 0 0 0 87 " stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<path d="M 405 100 h 5 a 10 10 0 0 1 10 10 v 70 a 10 10 0 0 0 10 10 a 10 10 0 0 0 -10 10 v 70 a 10 10 0 0 1 -10 10 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="205" style="font-size:15px;font-family:'Arial'" transform="rotate(-90 440 200)">transaction</text>
+</svg>

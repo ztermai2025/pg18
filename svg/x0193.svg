@@ -1,0 +1,67 @@
+<svg version="1.1" width="600" height="240" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 239 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<path d="M 270 10 V 230" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<g transform="translate(-160, 0)">
+<g transform="translate(200, 10)">
+<path d="M 0 5 v 21 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 0 5 -5 v -21 a 5 5 0 0 0 -5 -5 h -40 a 5 5 0 0 0 -5 5" stroke="#0000FF" stroke-width="1" fill="#DAE8FC"/>
+<text x="7" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">文件A</text>
+</g>
+<g transform="translate(350, 10)">
+<path d="M 0 5 v 21 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 0 5 -5 v -21 a 5 5 0 0 0 -5 -5 h -40 a 5 5 0 0 0 -5 5" stroke="#0000FF" stroke-width="1" fill="#DAE8FC"/>
+<text x="7" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">文件B</text>
+</g>
+<rect x="176" y="120" width="248" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 238 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 362 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 225 43 L 197 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 259 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 321 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 383 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 375 43 L 217 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 279 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 341 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 403 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="183" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块0</text>
+<text x="245" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块1</text>
+<text x="307" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块2</text>
+<text x="369" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块3</text>
+</g>
+
+<g transform="translate(100, 0)">
+<g transform="translate(200, 10)">
+<path d="M 0 5 v 21 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 0 5 -5 v -21 a 5 5 0 0 0 -5 -5 h -40 a 5 5 0 0 0 -5 5" stroke="#0000FF" stroke-width="1" fill="#DAE8FC"/>
+<text x="7" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">文件A</text>
+</g>
+<g transform="translate(350, 10)">
+<path d="M 0 5 v 21 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 0 5 -5 v -21 a 5 5 0 0 0 -5 -5 h -40 a 5 5 0 0 0 -5 5" stroke="#0000FF" stroke-width="1" fill="#DAE8FC"/>
+<text x="7" y="20" style="font-size:13px;font-family:'Microsoft Yahei'">文件B</text>
+</g>
+<rect x="430" y="120" width="62" height="100" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="432" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">新文件块3</text>
+<rect x="176" y="120" width="248" height="100" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 238 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 300 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 362 120 v 100" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 225 43 L 197 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 259 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 321 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 225 43 L 383 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 375 43 L 217 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 279 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 341 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 375 43 L 461 90 v 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="183" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块0</text>
+<text x="245" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块1</text>
+<text x="307" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块2</text>
+<text x="369" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">文件块3</text>
+</g>
+</svg>

@@ -1,0 +1,60 @@
+<svg version="1.1" width="600" height="361" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 360 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<path d="M 10 150 h 570 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 300 115 v 100 " stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<rect x="40" y="140" width="490" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 220 140 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="200" y="95" style="font-size:13px;font-family:'Microsoft Yahei'">重做点</text>
+
+<path d="M 220 100 V 128" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 220 165 V 228" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 460 140 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 460 100 V 128" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 530 100 V 128" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<text x="456" y="95" style="font-size:13px;font-family:'Arial'">A</text>
+<text x="526" y="95" style="font-size:13px;font-family:'Arial'">B</text>
+<text x="50" y="135" style="font-size:13px;font-family:'Microsoft Yahei'">WAL文件</text>
+<text x="267" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">当前数据库</text>
+<text x="267" y="323" style="font-size:13px;font-family:'Microsoft Yahei'">数据库快照</text>
+
+<g transform="translate(205, 243) scale(0.5 0.5)">
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="rgb(218,232,252)" />
+<path d="M 10 20 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 30 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 40 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 50 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 60 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 70 h 42 " stroke="#0000FF" stroke-width="1"/>
+<path d="M 10 80 h 42 " stroke="#0000FF" stroke-width="1"/>
+</g>
+
+<g transform="translate(283, 170) scale(0.4 0.4)">
+<path d="M 0 30 a 10 10 0 0 1 10 -10 h 10 v -5 a 10 10 0 0 1 10 -10 h 30 a 10 10 0 0 1 10 10 v 5 h 10 a 10 10 0 0 1 10 10 v 30 a 10 10 0 0 1 -10 10 h -70 a 10 10 0 0 1 -10 -10 v -30" stroke="#000000" stroke-width="1" fill="#000000" />
+<circle cx="45" cy="42" r="17" fill="#FFFFFF" />
+<circle cx="45" cy="42" r="9" fill="#000000" />
+<circle cx="13" cy="33" r="4" fill="#FFFFFF" />
+</g>
+
+<g transform="translate(270, 30)">
+<ellipse cx="31" cy="10" rx="30" ry="10" style="fill:rgb(115,131,191);stroke:rgb(115,131,191);stroke-width:1" />
+<path d="M 1 15 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 35 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 55 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<circle cx="50" cy="29" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="49" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="69" r="3" fill="#FFFFFF" />
+</g>
+
+<g transform="translate(270, 228)">
+<ellipse cx="31" cy="10" rx="30" ry="10" style="fill:rgb(115,131,191);stroke:rgb(115,131,191);stroke-width:1" />
+<path d="M 1 15 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 35 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<path d="M 1 55 a 30 10 0 0 0 60 0 v 15 a 30 10 0 0 1 -60 0 v -15" stroke="rgb(115,131,191)" stroke-width="1" fill="rgb(115,131,191)"/>
+<circle cx="50" cy="29" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="49" r="3" fill="#FFFFFF" />
+<circle cx="50" cy="69" r="3" fill="#FFFFFF" />
+</g>
+</svg>

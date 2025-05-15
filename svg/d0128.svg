@@ -1,0 +1,91 @@
+<svg version="1.1" width="600" height="351" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 350 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+<path d="M 55 40 h -5 a 5 5 0 0 0 -5 5 v 130 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 130 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 160 35 v -5 a 5 5 0 0 1 5 -5 h 170 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 170 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="300" y="15" style="font-size:13px;font-family:'Courier New'">HASHSEGMENT</text>
+
+<text x="15" y="200" style="font-size:15px;font-family:'Courier New'" transform="rotate(-90 20 185)">dir</text>
+
+<rect x="60" y="40" width="40" height="280" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<path d="M 60 80 h 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 120 h 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 160 h 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 200 h 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 280 h 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 80 60 h 68" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 80 300 h 68" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<rect x="160" y="40" width="360" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 200 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 240 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 280 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 320 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 440 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 480 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="350" y="62" style="font-size:35px;font-family:'Arial'">......</text>
+<text x="350" y="302" style="font-size:35px;font-family:'Arial'">......</text>
+
+<g transform="translate(0, 240)">
+<rect x="160" y="40" width="360" height="40" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 200 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 240 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 280 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 320 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 440 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 480 40 v 40 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+
+<path d="M 180 82 V 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 180 142 V 168" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<g transform="translate(170, 120)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<g transform="translate(170, 180)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+
+<path d="M 460 82 V 108" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<g transform="translate(450, 120)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+
+<g transform="translate(490, 160)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<g transform="translate(490, 220)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<path d="M 500 278 V 252" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 500 218 V 192" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(290, 100)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<g transform="translate(290, 160)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<g transform="translate(290, 220)">
+<rect x="0" y="0" width="60" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 20 0 v 20 " stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<path d="M 300 278 V 252" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 218 V 192" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 158 V 132" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="157" y="215" style="font-size:13px;font-family:'Courier New'">HASHELEMENT</text>
+<text x="142" y="255" style="font-size:13px;font-family:'Courier New'">HASHBUCKET</text>
+
+<path d="M 180 260 V 268" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+</svg>

@@ -1,0 +1,52 @@
+<svg version="1.1" width="600" height="291" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+  <path id="bottomxline" d="M 10 290 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+
+<g transform="rotate(135 150 140)"> <path d="M 50 140 a 100 100 0 0 0 200 0 z" stroke="#F0F0F0" stroke-width="1" fill="#F0F0F0"/> </g>
+
+<g transform="rotate(-135 450 140)"> <path d="M 350 140 a 100 100 0 0 0 200 0 z" stroke="#F0F0F0" stroke-width="1" fill="#F0F0F0"/> </g>
+
+<path d="M 150 80 a 60 60 0 0 1 60 60" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 450 80 a 60 60 0 0 1 0 120" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 50 140 H 250" stroke="#0000FF" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 350 140 H 550" stroke="#0000FF" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<path d="M 250 40 L 40 250" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 350 40 L 550 240" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+
+<circle cx="150" cy="140" r="100" fill="none" stroke="#0000FF" stroke-width="1" />
+<circle cx="50" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="250" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="221" cy="69" r="5" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="150" cy="40" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="150" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="150" cy="240" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<text x="188" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">当前的XID</text>
+<path d="M 221 30 V 50" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 521 250 V 229" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="488" y="263" style="font-size:13px;font-family:'Microsoft Yahei'">当前的XID</text>
+<text x="35" y="145" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="257" y="145" style="font-size:15px;font-family:'Arial'">2^31</text>
+<text x="135" y="30" style="font-size:15px;font-family:'Arial'">2^30</text>
+<text x="435" y="30" style="font-size:15px;font-family:'Arial'">2^30</text>
+
+
+<text x="335" y="145" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="557" y="145" style="font-size:15px;font-family:'Arial'">2^31</text>
+
+<text x="170" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">未来</text>
+<text x="100" y="120" style="font-size:13px;font-family:'Microsoft Yahei'">过去</text>
+<circle cx="450" cy="140" r="100" fill="none" stroke="#0000FF" stroke-width="1" />
+<circle cx="550" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="450" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="350" cy="140" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="521" cy="211" r="5" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="450" cy="40" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<circle cx="450" cy="240" r="3" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+
+<text x="450" y="120" style="font-size:13px;font-family:'Microsoft Yahei'">过去</text>
+<text x="400" y="180" style="font-size:13px;font-family:'Microsoft Yahei'">未来</text>
+</svg>

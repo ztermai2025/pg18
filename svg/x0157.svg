@@ -1,0 +1,32 @@
+<svg version="1.1" width="600" height="261" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 260 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -10)">  
+<path d="M 100 20 H 235" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 100 60 H 235" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 100 100 H 235" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 100 220 H 235" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<rect x="238" y="20" width="124" height="80" style="fill:#F0F0F0;stroke:#0000FF;stroke-width:1" />
+<rect x="238" y="100" width="124" height="120" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 238 60 h 124" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 350 30 h 26 a 15 15 0 0 1 0 30" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 250 30 h -24 a 15 15 0 0 0 0 30" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 350 80 h 26 a 5 10 0 0 1 0 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 250 90 h -24 a 15 65 0 0 0 0 130" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 350 70 h 100 v -50 H 374" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="275" y="160" style="font-size:13px;font-family:'Microsoft Yahei'">空闲空间</text>
+<text x="280" y="235" style="font-size:13px;font-family:'Microsoft Yahei'">初始块</text>
+
+<text x="20" y="45" style="font-size:13px;font-family:'Courier New'">AllocSetContext</text>
+<text x="20" y="85" style="font-size:13px;font-family:'Courier New'">AllocBlockData</text>
+
+<text x="160" y="155" style="font-size:13px;font-family:'Courier New'">endptr</text>
+<text x="385" y="95" style="font-size:13px;font-family:'Courier New'">freeptr</text>
+<text x="455" y="45" style="font-size:13px;font-family:'Courier New'">aset</text>
+<text x="395" y="48" style="font-size:13px;font-family:'Courier New'">blocks</text>
+<text x="160" y="45" style="font-size:13px;font-family:'Courier New'">keeper</text>
+  </g>
+</svg>

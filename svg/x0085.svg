@@ -1,0 +1,59 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 179 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path d="M 20 83 v 70" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+<path d="M 580 83 v 70" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+
+<path d="M 260 140 H 33" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 340 140 H 567" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="420" y="67" style="font-size:36px;font-family:'Arial'">......</text>
+
+<text x="275" y="138" style="font-size:13px;font-family:'Arial'">BLCKSZ</text>
+<text x="272" y="153" style="font-size:13px;font-family:'Microsoft Yahei'">8192字节</text>
+
+<rect x="20" y="50" width="560" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 80 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 110 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 140 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 170 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 200 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 230 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 260 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 290 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 320 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 350 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 380 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 520 50 v 30" stroke="#0000FF" stroke-width="1"/>
+<path d="M 550 50 v 30" stroke="#0000FF" stroke-width="1"/>
+
+<text x="32" y="70" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="62" y="70" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="92" y="70" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="122" y="70" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="152" y="70" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="182" y="70" style="font-size:13px;font-family:'Arial'">5</text>
+<text x="212" y="70" style="font-size:13px;font-family:'Arial'">6</text>
+<text x="242" y="70" style="font-size:13px;font-family:'Arial'">7</text>
+<text x="272" y="70" style="font-size:13px;font-family:'Arial'">8</text>
+<text x="302" y="70" style="font-size:13px;font-family:'Arial'">9</text>
+<text x="328" y="70" style="font-size:13px;font-family:'Arial'">10</text>
+
+<path d="M 35 47 v -30 h 25 v 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 35 47 v -30 h 55 v 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 65 83 v 30 h 60 v -20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 65 83 v 30 h 85 v -20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 100 47 v -30 h 85 v 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 100 47 v -30 h 115 v 20" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 125 47 v -20 h 120 v 10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 125 47 v -20 h 150 v 10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 160 83 v 20 h 145 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 160 83 v 20 h 175 v -10" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+</svg>

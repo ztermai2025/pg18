@@ -1,0 +1,54 @@
+<svg version="1.1" width="600" height="210" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 209 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<g transform="translate(0, 0)">
+<rect x="50" y="30" width="500" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 100 30 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 150 30 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 30 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 420 30 v 30" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="53" y="23" style="font-size:13px;font-family:'Arial'">t_xmin</text>
+<text x="103" y="23" style="font-size:13px;font-family:'Arial'">t_xmax</text>
+<text x="165" y="23" style="font-size:13px;font-family:'Arial'">t_ctid</text>
+<text x="285" y="23" style="font-size:13px;font-family:'Arial'">t_informask2</text>
+<text x="455" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">用户的数据</text>
+
+<text x="68" y="50" style="font-size:13px;font-family:'Arial'">195</text>
+<text x="168" y="50" style="font-size:13px;font-family:'Arial'">(5,1)</text>
+<text x="460" y="50" style="font-size:13px;font-family:'Arial'">1000, 'A'</text>
+<text x="10" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">记录1</text>
+</g>
+
+<path d="M 300 63 V 80" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+
+<g transform="translate(0, 100)">
+<rect x="50" y="30" width="500" height="60" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 60 h 500" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 100 30 v 60" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 150 30 v 60" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 30 v 60" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 420 30 v 60" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="53" y="23" style="font-size:13px;font-family:'Arial'">t_xmin</text>
+<text x="103" y="23" style="font-size:13px;font-family:'Arial'">t_xmax</text>
+<text x="165" y="23" style="font-size:13px;font-family:'Arial'">t_ctid</text>
+<text x="285" y="23" style="font-size:13px;font-family:'Arial'">t_informask2</text>
+<text x="455" y="23" style="font-size:13px;font-family:'Microsoft Yahei'">用户的数据</text>
+
+<text x="68" y="50" style="font-size:13px;font-family:'Arial'">195</text>
+<text x="68" y="80" style="font-size:13px;font-family:'Arial'">196</text>
+<text x="118" y="50" style="font-size:13px;font-family:'Arial'">196</text>
+<text x="168" y="50" style="font-size:13px;font-family:'Arial'">(5,2)</text>
+<text x="168" y="80" style="font-size:13px;font-family:'Arial'">(5,2)</text>
+<text x="460" y="50" style="font-size:13px;font-family:'Arial'">1000, 'A'</text>
+<text x="460" y="80" style="font-size:13px;font-family:'Arial'">1000, 'B'</text>
+<text x="10" y="50" style="font-size:13px;font-family:'Microsoft Yahei'">记录1</text>
+<text x="10" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">记录2</text>
+<text x="260" y="50" style="font-size:13px;font-family:'Courier New'">HEAP_HOT_UPDATED</text>
+<text x="260" y="80" style="font-size:13px;font-family:'Courier New'">HEAP_ONLY_TUPLE</text>
+</g>
+</svg>

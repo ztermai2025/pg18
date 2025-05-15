@@ -1,0 +1,53 @@
+<svg version="1.1" width="600" height="266" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 265 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<g transform="translate(0, -15)">
+<rect x="238" y="60" width="124" height="200" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<g transform="translate(260, 110)">
+<rect x="0" y="0" width="80" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 20 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 30 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 50 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 70 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<g transform="translate(260, 205)">
+<rect x="0" y="0" width="80" height="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<path d="M 10 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 20 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 30 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 40 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 50 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 60 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 70 0 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+</g>
+<text x="210" y="113" style="font-size:13px;font-family:'Arial'">(1)</text>
+<text x="158" y="75" style="font-size:13px;font-family:'Arial'">(2)</text>
+<text x="368" y="113" style="font-size:13px;font-family:'Arial'">(3)</text>
+<text x="280" y="80" style="font-size:13px;font-family:'Microsoft Yahei'">共享内存</text>
+<text x="290" y="33" style="font-size:13px;font-family:'Microsoft Yahei'">信号</text>
+<text x="500" y="175" style="font-size:13px;font-family:'Microsoft Yahei'">信号</text>
+<path d="M 150 98 l 15 -12 a 290 400 0 0 1 275 0 l 5 5" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 502 120 h 10 a 20 50 0 0 1 0 100" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 202 120 H 248" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 342 120 H 388" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 342 220 H 388" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<g transform="translate(100, 100)">
+<ellipse cx="50" cy="20" rx="50" ry="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="30" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">父进程</text>
+</g>
+<g transform="translate(400, 100)">
+<ellipse cx="50" cy="20" rx="50" ry="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="25" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">子进程A</text>
+</g>
+<g transform="translate(400, 200)">
+<ellipse cx="50" cy="20" rx="50" ry="20" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="25" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">子进程B</text>
+</g>
+</g>
+</svg>

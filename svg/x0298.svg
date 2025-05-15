@@ -1,0 +1,157 @@
+<svg version="1.1" width="600" height="270" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 269 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<text x="80" y="17" style="font-size:13px;font-family:'Arial'">256KB</text>
+<text x="275" y="187" style="font-size:13px;font-family:'Arial'">8KB</text>
+
+<text x="210" y="33" style="font-size:13px;font-family:'Arial'">0589</text>
+<text x="330" y="33" style="font-size:13px;font-family:'Arial'">058A</text>
+<text x="450" y="33" style="font-size:13px;font-family:'Arial'">058B</text>
+
+
+<path d="M 50 35 v -5 a 5 5 0 0 1 5 -5 h 42 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 43 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<g transform="translate(50, 40)">
+<rect x="0" y="0" width="105" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 15 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 30 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 45 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="50" y="17" style="font-size:20px;font-family:'Arial'">......</text>
+</g>
+
+<g transform="translate(170, 40)">
+<rect x="0" y="0" width="105" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 15 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 30 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 45 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="50" y="17" style="font-size:20px;font-family:'Arial'">......</text>
+</g>
+
+<g transform="translate(290, 40)">
+<rect x="0" y="0" width="105" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 15 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 30 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 45 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="50" y="17" style="font-size:20px;font-family:'Arial'">......</text>
+</g>
+
+<g transform="translate(410, 40)">
+<rect x="0" y="0" width="105" height="30" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 15 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 30 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 45 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 0 v 30" stroke="#0000FF" stroke-width="1" fill="none" />
+<text x="50" y="17" style="font-size:20px;font-family:'Arial'">......</text>
+</g>
+
+<path d="M 50 73 V 108" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+<path d="M 65 73 v 10 L 250 95 V 108" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+
+<rect x="50" y="120" width="200" height="128" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 50 140 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 160 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 180 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 50 228 h 200" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 70 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 110 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 150 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 170 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 190 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 210 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 230 120 v 60" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 70 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 90 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 110 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 130 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 150 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 170 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 190 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 210 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 230 228 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<text x="56" y="135" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="76" y="135" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="96" y="135" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="116" y="135" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="136" y="135" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="156" y="135" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="176" y="135" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="196" y="135" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="216" y="135" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="236" y="135" style="font-size:13px;font-family:'Arial'">1</text>
+
+<text x="56" y="155" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="76" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="96" y="155" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="116" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="136" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="156" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="176" y="155" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="196" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="216" y="155" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="236" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+
+<text x="56" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="76" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="96" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="116" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="136" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="156" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="176" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="196" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="216" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="236" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+
+<text x="56" y="243" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="76" y="243" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="96" y="243" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="116" y="243" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="136" y="243" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="156" y="243" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="176" y="243" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="196" y="243" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="216" y="243" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="236" y="243" style="font-size:13px;font-family:'Arial'">0</text>
+
+<text x="130" y="205" style="font-size:36px;font-family:'Arial'">......</text>
+
+<path d="M 255 120 h 5 a 5 5 0 0 1 5 5 v 54 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 54 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<rect x="340" y="160" width="160" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 360 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 380 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 400 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 420 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 440 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 460 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+<path d="M 480 160 v 20" stroke="#0000FF" stroke-width="1" fill="none" />
+
+<path d="M 340 155 v -5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 420 155 v -5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 380 185 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 460 185 v 5 a 5 5 0 0 0 5 5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="346" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="366" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="386" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="406" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="426" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="446" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="466" y="175" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="486" y="175" style="font-size:13px;font-family:'Arial'">0</text>
+
+<text x="350" y="135" style="font-size:13px;font-family:'Arial'">xid</text>
+<text x="430" y="135" style="font-size:13px;font-family:'Arial'">xid+2</text>
+<text x="380" y="215" style="font-size:13px;font-family:'Arial'">xid+1</text>
+<text x="465" y="215" style="font-size:13px;font-family:'Arial'">xid+3</text>
+</svg>

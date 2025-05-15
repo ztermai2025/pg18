@@ -1,0 +1,41 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 179 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<rect x="50" y="10" width="500" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 70 10 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 150 10 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 230 10 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 310 10 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<text x="56" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="105" y="25" style="font-size:13px;font-family:'Arial'">8</text>
+<text x="185" y="25" style="font-size:13px;font-family:'Arial'">8</text>
+<text x="265" y="25" style="font-size:13px;font-family:'Arial'">8</text>
+
+<path d="M 310 35 v 5 a 5 5 0 0 0 5 5 h 110 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 110 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<rect x="50" y="140" width="200" height="20" style="fill:none;stroke:#0000FF;stroke-width:1" />
+<path d="M 70 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 150 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 230 140 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<text x="56" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="105" y="155" style="font-size:13px;font-family:'Arial'">8</text>
+<text x="185" y="155" style="font-size:13px;font-family:'Arial'">8</text>
+<text x="236" y="155" style="font-size:13px;font-family:'Arial'">1</text>
+
+<path d="M 60 75 V 43" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 60 100 V 127" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 110 60 V 43" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 60 V 43" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 270 60 V 43" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<path d="M 110 110 V 127" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 190 110 V 127" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+<path d="M 240 110 V 127" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+
+<text x="380" y="70" style="font-size:13px;font-family:'Microsoft Yahei'">真正的WAL数据</text>
+<text x="5" y="90" style="font-size:13px;font-family:'Microsoft Yahei'">消息包的类型(w或者k)</text>
+
+</svg>

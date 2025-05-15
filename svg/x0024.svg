@@ -1,0 +1,54 @@
+<svg version="1.1" width="600" height="211" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 210 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<rect x="275" y="5" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<text x="281" y="25" style="font-size:13px;font-family:'Microsoft Yahei'">根节点</text>
+
+<rect x="275" y="80" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="125" y="80" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="425" y="80" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<rect x="75" y="155" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="175" y="155" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="275" y="155" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<rect x="375" y="155" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+<rect x="475" y="155" width="50" height="31" style="fill:#DAE8FC;stroke:#0000FF;stroke-width:1" />
+
+<text x="145" y="100" style="font-size:15px;font-family:'Arial'">A</text>
+<text x="295" y="100" style="font-size:15px;font-family:'Arial'">B</text>
+<text x="445" y="100" style="font-size:15px;font-family:'Arial'">C</text>
+<text x="95" y="175" style="font-size:15px;font-family:'Arial'">D</text>
+<text x="195" y="175" style="font-size:15px;font-family:'Arial'">E</text>
+<text x="295" y="175" style="font-size:15px;font-family:'Arial'">F</text>
+<text x="395" y="175" style="font-size:15px;font-family:'Arial'">G</text>
+<text x="495" y="175" style="font-size:15px;font-family:'Arial'">H</text>
+
+<path d="M 300 78 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 145 78 V 15 H 263" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 273 25 H 155 V 68" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 450 78 V 20 H 337" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 177 90 H 263" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 327 90 H 413" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 423 100 H 337" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 273 100 H 187" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 95 153 V 90 H 113" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 123 100 H 105 V 143" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 127 165 H 163" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 173 175 H 137" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 295 113 V 143" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 305 153 V 123" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 445 113 v 15 H 395 V 143" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 405 153 v -15 H 455 V 123" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 427 165 H 463" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 473 175 H 437" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="157" y="45" style="font-size:13px;font-family:'Courier New'">firstchild</text>
+<text x="303" y="60" style="font-size:13px;font-family:'Courier New'">parent</text>
+<text x="455" y="60" style="font-size:13px;font-family:'Courier New'">parent</text>
+<text x="94" y="60" style="font-size:13px;font-family:'Courier New'">parent</text>
+<text x="188" y="83" style="font-size:13px;font-family:'Courier New'">nextchild</text>
+<text x="188" y="112" style="font-size:13px;font-family:'Courier New'">prevchild</text>
+<text x="338" y="83" style="font-size:13px;font-family:'Courier New'">nextchild</text>
+<text x="338" y="112" style="font-size:13px;font-family:'Courier New'">prevchild</text>
+</svg>

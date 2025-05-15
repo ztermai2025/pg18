@@ -1,0 +1,22 @@
+<svg version="1.1" width="600" height="130" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(0, -40)">
+<text x="20" y="100" style="font-size:40px;font-family:'Arial'" stroke="#0000FF">
+000000090000002D000000BE
+</text>
+
+<line x1="198" y1="50" x2="198" y2="160" stroke-dasharray="4,4" stroke="#000000" stroke-width="1"/>
+<line x1="382" y1="50" x2="382" y2="160" stroke-dasharray="4,4" stroke="#000000" stroke-width="1"/>
+
+<line x1="20" y1="110" x2="580" y2="110" stroke="#000000" stroke-width="1"/>
+
+<line x1="110" y1="140" x2="110" y2="122" stroke="#000000" stroke-width="1" marker-end="url(#arrowhead)" />
+<line x1="300" y1="140" x2="300" y2="122" stroke="#000000" stroke-width="1" marker-end="url(#arrowhead)" />
+<line x1="470" y1="140" x2="470" y2="122" stroke="#000000" stroke-width="1" marker-end="url(#arrowhead)" />
+
+<text x="253" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">逻辑文件的编号</text>
+<text x="433" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">段文件的编号</text>
+<text x="90" y="155" style="font-size:13px;font-family:'Microsoft Yahei'">时间线</text>
+</g>
+</svg>

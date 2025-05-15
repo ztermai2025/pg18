@@ -1,0 +1,43 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<rect x="20" y="100" width="560" height="20" style="fill:rgb(255,242,204);stroke:#0000FF;stroke-width:1" />
+<path d="M 140 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 160 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 220 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 240 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 260 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 280 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+<path d="M 560 100 v 20" stroke="#0000FF" stroke-width="1" fill="none"/>
+
+<path d="M 90 70 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="50" y="63" style="font-size:13px;font-family:'Courier New'">XLogRecord</text>
+
+<path d="M 150 150 V 132" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="20" y="162" style="font-size:13px;font-family:'Courier New'">XLogRecordBlockHeader</text>
+
+<path d="M 190 70 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="148" y="63" style="font-size:13px;font-family:'Courier New'">RelFileNode</text>
+
+<path d="M 230 150 V 132" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="210" y="162" style="font-size:13px;font-family:'Courier New'">BlockNumber</text>
+
+<path d="M 250 30 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="160" y="25" style="font-size:13px;font-family:'Courier New'">XLogRecordDataHeaderShort</text>
+
+<path d="M 270 70 V 88" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="255" y="63" style="font-size:13px;font-family:'Courier New'">xl_heap_header</text>
+
+<path d="M 570 150 V 132" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="480" y="162" style="font-size:13px;font-family:'Courier New'">xl_heap_insert</text>
+
+<text x="82" y="115" style="font-size:13px;font-family:'Arial'">24</text>
+<text x="147" y="115" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="181" y="115" style="font-size:13px;font-family:'Arial'">12</text>
+<text x="226" y="115" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="246" y="115" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="267" y="115" style="font-size:13px;font-family:'Arial'">5</text>
+<text x="566" y="115" style="font-size:13px;font-family:'Arial'">3</text>
+
+<text x="390" y="113" style="font-size:13px;font-family:'Arial'">tuple data</text>
+</svg>

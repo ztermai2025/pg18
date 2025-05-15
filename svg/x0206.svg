@@ -1,0 +1,17 @@
+<svg version="1.1" width="600" height="211" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<path id="bottomxline" d="M 10 210 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" />
+<path d="M 300 20 V 80 l -80 30 v 50" stroke="#0000FF" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 80 l 80 30 v 50" stroke="#0000FF" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 270 80 H 300" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3,3" />
+<circle cx="300" cy="80" r="4" fill="#FF0000" stroke="#FF0000" stroke-width="1" />
+<path d="M 380 80 H 322" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 265 20 h -5 a 5 5 0 0 0 -5 5 v 20 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 215 110 h -5 a 5 5 0 0 0 -5 5 v 20 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 385 110 h 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 20 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="385" y="83" style="font-size:13px;font-family:'Courier New'">fork()</text>
+<text x="155" y="55" style="font-size:13px;font-family:'Microsoft Yahei'">在父进程中执行</text>
+<text x="105" y="145" style="font-size:13px;font-family:'Microsoft Yahei'">在父进程中执行</text>
+<text x="405" y="145" style="font-size:13px;font-family:'Microsoft Yahei'">在子进程中执行</text>
+</svg>

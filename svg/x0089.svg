@@ -1,0 +1,35 @@
+<svg version="1.1" width="600" height="270" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path id="bottomxline" d="M 10 269 h 580" stroke="#FFFFFF" stroke-width="1" fill="none" /> 
+
+<path d="M 160 40 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 70 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 100 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 130 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 160 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 190 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 220 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 250 h 280" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 300 40 V 250" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="200" y="35" style="font-size:15px;font-family:'Microsoft Yahei'">值</text>
+<text x="320" y="35" style="font-size:15px;font-family:'Microsoft Yahei'">代表的空闲空间</text>
+
+<text x="220" y="60" style="font-size:15px;font-family:'Arial'">0</text>
+<text x="220" y="90" style="font-size:15px;font-family:'Arial'">1</text>
+<text x="220" y="120" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="220" y="150" style="font-size:15px;font-family:'Arial'">3</text>
+<text x="210" y="178" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="220" y="210" style="font-size:15px;font-family:'Arial'">254</text>
+<text x="220" y="240" style="font-size:15px;font-family:'Arial'">255</text>
+
+<text x="310" y="60" style="font-size:15px;font-family:'Microsoft Yahei'">0 ~ 31字节</text>
+<text x="310" y="90" style="font-size:15px;font-family:'Microsoft Yahei'">32 ~ 63字节</text>
+<text x="310" y="120" style="font-size:15px;font-family:'Microsoft Yahei'">63 ~ 95字节</text>
+<text x="310" y="150" style="font-size:15px;font-family:'Microsoft Yahei'">96 ~ 127字节</text>
+<text x="330" y="178" style="font-size:25px;font-family:'Arial'">......</text>
+<text x="310" y="210" style="font-size:15px;font-family:'Microsoft Yahei'">8128 ~ 8159字节</text>
+<text x="310" y="240" style="font-size:15px;font-family:'Microsoft Yahei'">8160 ~ 8191字节</text>
+</svg>
