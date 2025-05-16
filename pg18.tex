@@ -11,13 +11,24 @@
 
 \extrainfo{吾生也有涯，而知也无涯}
 
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 
-\logo{logo-blue.png}
-\cover{cover.jpg}
+\logo{pglogo.pdf}
+\cover{pgcover5.jpg}
 
 % 本文档命令
+\usepackage{float}
 \usepackage{array}
+\renewcommand{\lstlistingname}{实验}
+\usepackage{listings}
+\definecolor{lbcolor}{rgb}{0.97,0.97,0.97} 
+\lstset {
+backgroundcolor=\color{lbcolor},
+keepspaces=true,
+framexleftmargin=5pt,
+frame=tb
+}
+%\usepackage{array}
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
 
 % 修改标题页的橙色带
@@ -32,57 +43,45 @@
 \maketitle
 \frontmatter
 
+\input{preamble}
+
 \tableofcontents
 
 \mainmatter
 
-\chapter{体系架构概述}
-\section{创建实验环境}
-\section{Linux前导知识}
-\section{体系架构概述}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set PATH=C:\Program Files\Inkscape\bin;%PATH%
+% inkscape -C --export-type=pdf --export-filename=x.pdf x.svg
 
-\chapter{数据文件}
-\section{PostgreSQL源代码的基础知识}
-\section{数据文件}
-\section{性能测试工具pgbench的使用}
+\input{ch01s00}
+\input{ch01s01}
+\input{ch01s02}
 
-\chapter{理解WAL}
-\section{WAL的基础知识}
-\section{检查点}
-\section{崩溃恢复}
-\section{WAL文件的管理}
+\input{ch02s00}
+\input{ch02s01}
+\input{ch02s02}
 
-\chapter{备份和恢复}
-\section{物理备份}
-\section{增量物理备份}
-\section{数据库的恢复}
-\section{逻辑备份和恢复}
+\input{ch03s00}
+\input{ch03s01}
+\input{ch03s02}
+\input{ch03s03}
 
-\chapter{流复制}
-\section{快速搭建流复制}
-\section{主库和备库的通讯过程}
-\section{流复制的监控}
-\section{主备库之间的切换}
-\section{从备库上执行备份}
+\input{ch04s00}
+\input{ch04s01}
+\input{ch04s02}
 
-\chapter{堆表和B树索引}
-\section{堆表}
-\section{B树索引}
+\input{ch05s00}
 
-\chapter{多版本并发控制}
-\section{事务}
-\section{多版本并发控制}
+\input{ch06s00}
 
-\chapter{表和索引的清理(VACUUM)}
-\section{一个VACUUM实验}
+\input{ch07s00}
 
-\chapter{逻辑复制}
-\section{快速搭建逻辑复制}
-\section{逻辑复制的体系架构}
-\section{从备库进行逻辑复制}
+\input{ch08s00}
 
-\chapter{SQL性能优化}
+\input{ch09s00}
 
-\chapter{数据库升级}
+\input{ch10s00}
+
+\input{ch11s00}
 
 \end{document}
