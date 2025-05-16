@@ -1,0 +1,30 @@
+<svg version="1.1" width="600" height="180" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 90 60 h 420 v 30 h -420 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 120 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 180 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 240 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 270 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 420 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 480 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="330" y="77" style="font-size:29px;font-family:'Microsoft Yahei UI'">......</text>
+
+<text x="100" y="55" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="130" y="55" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="160" y="55" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="190" y="55" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="220" y="55" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="250" y="55" style="font-size:13px;font-family:'Arial'">5</text>
+
+<text x="423" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
+<text x="455" y="55" style="font-size:13px;font-family:'Arial'">n-2</text>
+<text x="487" y="55" style="font-size:13px;font-family:'Arial'">n-1</text>
+
+<path d="M 165 120 V 103" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<text x="90" y="140" style="font-size:19px;font-family:'Microsoft Yahei UI'">一个字节(one byte)</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg version="1.1" width="600" height="85" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 100 10 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
+
+<text x="145" y="25" style="font-size:13px;font-family:'Arial'">32</text>
+<text x="245" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="345" y="25" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="445" y="25" style="font-size:13px;font-family:'Arial'">3</text>
+</svg>

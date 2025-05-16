@@ -1,0 +1,57 @@
+<svg version="1.1" width="600" height="340" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 100 20 h 400 v 247 h -400 v -247" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 100 102 h 400" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 184 h 400" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 233 184 V 267" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 366 184 V 267" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 502 20 h 5 a 5 5 0 0 1 5 5 v 72 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 72 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 502 184 h 5 a 5 5 0 0 1 5 5 v 31 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 32 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="280" y="50" style="font-size:19px;font-family:'Microsoft Yahei UI'">应用程序</text>
+<text x="240" y="75" style="font-size:19px;font-family:'Arial'">(Application Programs)</text>
+
+<text x="280" y="140" style="font-size:19px;font-family:'Microsoft Yahei UI'">操作系统</text>
+<text x="240" y="165" style="font-size:19px;font-family:'Arial'">(Operating system)</text>
+
+<text x="120" y="230" style="font-size:19px;font-family:'Microsoft Yahei UI'">CPU处理器</text>
+<text x="140" y="255" style="font-size:19px;font-family:'Arial'">Processor</text>
+
+<text x="280" y="230" style="font-size:19px;font-family:'Microsoft Yahei UI'">主内存</text>
+<text x="245" y="255" style="font-size:19px;font-family:'Arial'">Main Memory</text>
+
+<text x="400" y="230" style="font-size:19px;font-family:'Microsoft Yahei UI'">I/O设备</text>
+<text x="400" y="255" style="font-size:19px;font-family:'Arial'">I/O Device</text>
+
+<text x="520" y="110" style="font-size:19px;font-family:'Microsoft Yahei UI'">软件</text>
+<text x="520" y="230" style="font-size:19px;font-family:'Microsoft Yahei UI'">硬件</text>
+
+
+<!--
+<path d="M 10 130 h 100 v 62 h -100 v -62" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 490 130 h 100 v 62 h -100 v -62" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 115 161 H 188" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 405 161 H 478" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 200 10 h 200 v 324 h -200 v -324" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 2"/>
+
+<path d="M 210 20 h 180 v 141 h -180 v -141" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 210 h 180 v 111 h -180 v -111" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 220 50 h 160 v 50 h -160 v -50" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 220 110 h 160 v 40 h -160 v -40" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 300 180 V 198" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 180 V 173" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="280" y="260" style="font-size:17px;font-family:'Microsoft Yahei UI'">内存</text>
+<text x="27" y="165" style="font-size:17px;font-family:'Microsoft Yahei UI'">输入设备</text>
+<text x="507" y="165" style="font-size:17px;font-family:'Microsoft Yahei UI'">输出设备</text>
+<text x="270" y="80" style="font-size:17px;font-family:'Microsoft Yahei UI'">控制单元</text>
+<text x="250" y="140" style="font-size:17px;font-family:'Microsoft Yahei UI'">算数/逻辑单元</text>
+-->
+</svg>

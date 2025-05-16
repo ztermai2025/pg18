@@ -1,0 +1,24 @@
+<svg version="1.1" width="600" height="400" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 300 5 V 18" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 100 30 h 400 v 60 h -400 v -60" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 130 h 400 v 60 h -400 v -60" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 230 h 400 v 60 h -400 v -60" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 330 h 400 v 60 h -400 v -60" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 300 92 v 26" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 192 v 26" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 292 v 26" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="230" y="50" style="font-size:17px;font-family:'Microsoft Yahei UI'">下载并解压缩源代码包</text>
+<text x="230" y="150" style="font-size:17px;font-family:'Microsoft Yahei UI'">编译源代码</text>
+<text x="230" y="250" style="font-size:17px;font-family:'Microsoft Yahei UI'">创建数据库集群</text>
+<text x="230" y="350" style="font-size:17px;font-family:'Microsoft Yahei UI'">数据库集群的启动，使用和停止</text>
+
+<text x="120" y="65" style="font-size:15px;font-family:'Arial'">download and uncompress the source code package</text>
+<text x="120" y="165" style="font-size:15px;font-family:'Arial'">compile the source code</text>
+<text x="120" y="265" style="font-size:15px;font-family:'Arial'">create the database cluster</text>
+<text x="120" y="365" style="font-size:15px;font-family:'Arial'">start, stop and use the database cluster</text>
+</svg>

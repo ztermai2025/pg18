@@ -1,0 +1,53 @@
+<svg version="1.1" width="600" height="340" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<path d="M 10 130 h 100 v 62 h -100 v -62" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 490 130 h 100 v 62 h -100 v -62" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 115 161 H 188" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 405 161 H 478" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 200 10 h 200 v 324 h -200 v -324" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 2"/>
+
+<path d="M 210 20 h 180 v 141 h -180 v -141" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 210 h 180 v 111 h -180 v -111" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 220 50 h 160 v 50 h -160 v -50" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 220 110 h 160 v 40 h -160 v -40" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 300 180 V 198" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 300 180 V 173" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="250" y="40" style="font-size:17px;font-family:'Microsoft Yahei UI'">中央处理单元</text>
+<text x="280" y="260" style="font-size:17px;font-family:'Microsoft Yahei UI'">内存</text>
+<text x="27" y="165" style="font-size:17px;font-family:'Microsoft Yahei UI'">输入设备</text>
+<text x="507" y="165" style="font-size:17px;font-family:'Microsoft Yahei UI'">输出设备</text>
+<text x="270" y="80" style="font-size:17px;font-family:'Microsoft Yahei UI'">控制单元</text>
+<text x="250" y="140" style="font-size:17px;font-family:'Microsoft Yahei UI'">算数/逻辑单元</text>
+
+<!--
+<path d="M 90 60 h 420 v 30 h -420 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 120 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 180 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 240 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 270 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 420 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 480 60 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+
+
+
+<text x="130" y="55" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="160" y="55" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="190" y="55" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="220" y="55" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="250" y="55" style="font-size:13px;font-family:'Arial'">5</text>
+
+<text x="423" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
+<text x="455" y="55" style="font-size:13px;font-family:'Arial'">n-2</text>
+<text x="487" y="55" style="font-size:13px;font-family:'Arial'">n-1</text>
+
+-->
+</svg>

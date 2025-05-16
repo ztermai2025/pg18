@@ -1,0 +1,56 @@
+<svg version="1.1" width="600" height="385" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(10, 60)">
+<path d="M 0 10 h 580 v 20 h -580 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 20 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 40 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 60 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 80 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 120 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 140 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 160 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 180 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 460 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 480 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 500 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 520 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 540 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 560 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+</g>
+
+<path d="M 20 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 60 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 100 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 140 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 180 40 V 58" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 40 120 V 100" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 80 120 V 100" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 120 120 V 100" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 160 120 V 100" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="8" y="35" style="font-size:13px;font-family:'Courier New'">M[0]</text>
+<text x="48" y="35" style="font-size:13px;font-family:'Courier New'">M[2]</text>
+<text x="88" y="35" style="font-size:13px;font-family:'Courier New'">M[4]</text>
+<text x="128" y="35" style="font-size:13px;font-family:'Courier New'">M[6]</text>
+<text x="168" y="35" style="font-size:13px;font-family:'Courier New'">M[8]</text>
+
+<text x="28" y="132" style="font-size:13px;font-family:'Courier New'">M[1]</text>
+<text x="68" y="132" style="font-size:13px;font-family:'Courier New'">M[3]</text>
+<text x="108" y="132" style="font-size:13px;font-family:'Courier New'">M[5]</text>
+<text x="148" y="132" style="font-size:13px;font-family:'Courier New'">M[7]</text>
+
+<!--
+<path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
+
+<text x="145" y="25" style="font-size:13px;font-family:'Arial'">32</text>
+<text x="245" y="25" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="345" y="25" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="445" y="25" style="font-size:13px;font-family:'Arial'">3</text>
+-->
+</svg>
