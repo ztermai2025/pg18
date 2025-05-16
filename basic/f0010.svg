@@ -1,0 +1,8 @@
+<svg version="1.1" width="600" height="120" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<text x="240" y="60" style="font-size:49px;font-family:'Arial'">C 5</text>
+<path d="M 200 70 h 150" stroke="#000000" stroke-width="1" fill="none"/>
+<text x="250" y="90" style="font-size:19px;font-family:'Arial'">16</text>
+<text x="300" y="90" style="font-size:19px;font-family:'Arial'">1</text>
+</svg>
