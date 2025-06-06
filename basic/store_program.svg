@@ -1,6 +1,32 @@
 <svg version="1.1" width="600" height="385" xmlns="http://www.w3.org/2000/svg" >
 <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
 
+<path d="M 100 60 h 124 v 200 h -124 v -200" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 70 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 100 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 150 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 376 20 h 124 v 280 h -124 v -280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 380 40 h 116 v 100 h -116 v -100" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 380 160 h 116 v 100 h -116 v -100" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 230 140 H 360" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 330 180 H 360" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 330 180 H 240" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="145" y="55" style="font-size:15px;font-family:'Arial'">CPU</text>
+<text x="140" y="85" style="font-size:13px;font-family:'Arial'">register 0</text>
+<text x="140" y="115" style="font-size:13px;font-family:'Arial'">register 1</text>
+<text x="140" y="165" style="font-size:13px;font-family:'Arial'">register n</text>
+<text x="140" y="140" style="font-size:33px;font-family:'Arial'">......</text>
+
+<text x="415" y="315" style="font-size:15px;font-family:'Arial'">Memory</text>
+<text x="425" y="95" style="font-size:13px;font-family:'Arial'">Data</text>
+<text x="410" y="215" style="font-size:13px;font-family:'Arial'">Instructions</text>
+<text x="280" y="135" style="font-size:13px;font-family:'Arial'">Adress</text>
+<text x="280" y="175" style="font-size:13px;font-family:'Arial'">Data</text>
+
+<!--
 <path d="M 100 10 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
 <path d="M 200 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
 <path d="M 300 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
@@ -9,7 +35,6 @@
 
 <text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
 
-<text x="145" y="25" style="font-size:13px;font-family:'Arial'">OP</text>
 <text x="245" y="25" style="font-size:13px;font-family:'Arial'">X</text>
 <text x="345" y="25" style="font-size:13px;font-family:'Arial'">Y</text>
 <text x="445" y="25" style="font-size:13px;font-family:'Arial'">Z</text>
@@ -39,4 +64,5 @@
 
 <text x="145" y="25" style="font-size:13px;font-family:'Arial'">OP</text>
 </g>
+-->
 </svg>
