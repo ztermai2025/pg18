@@ -1,0 +1,101 @@
+<svg version="1.1" width="600" height="310" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+<g transform="translate(0,70)">
+<path d="M 100 20 h 50 v 20 h -50 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 125 20 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 100 60 h 50 v 20 h -50 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 100 100 h 100 v 20 h -100 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 100 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 100 140 h 200 v 20 h -200 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 140 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 140 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 250 140 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 100 180 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 250 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 350 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 180 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="60" y="35" style="font-size:15px;font-family:'Arial'">4-bit</text>
+<text x="60" y="75" style="font-size:15px;font-family:'Arial'">8-bit</text>
+<text x="60" y="115" style="font-size:15px;font-family:'Arial'">16-bit</text>
+<text x="60" y="155" style="font-size:15px;font-family:'Arial'">32-bit</text>
+<text x="60" y="195" style="font-size:15px;font-family:'Arial'">64-bit</text>
+
+<text x="155" y="35" style="font-size:15px;font-family:'Arial'">nybble</text>
+<text x="155" y="75" style="font-size:15px;font-family:'Arial'">byte</text>
+<text x="205" y="115" style="font-size:15px;font-family:'Arial'">wyde</text>
+<text x="305" y="155" style="font-size:15px;font-family:'Arial'">tetra/terrabyte</text>
+<text x="505" y="195" style="font-size:15px;font-family:'Arial'">octa/octabyte</text>
+</g>
+<!--
+<path d="M 100 60 h 124 v 200 h -124 v -200" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 70 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 100 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 105 150 h 114 v 20 h -114 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 376 20 h 124 v 280 h -124 v -280" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 380 40 h 116 v 100 h -116 v -100" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 380 160 h 116 v 100 h -116 v -100" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 230 140 H 360" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 330 180 H 360" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 330 180 H 240" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="140" y="85" style="font-size:13px;font-family:'Arial'">register 0</text>
+<text x="140" y="115" style="font-size:13px;font-family:'Arial'">register 1</text>
+<text x="140" y="165" style="font-size:13px;font-family:'Arial'">register n</text>
+<text x="140" y="140" style="font-size:33px;font-family:'Arial'">......</text>
+
+<text x="415" y="315" style="font-size:15px;font-family:'Arial'">Memory</text>
+<text x="425" y="95" style="font-size:13px;font-family:'Arial'">Data</text>
+<text x="410" y="215" style="font-size:13px;font-family:'Arial'">Instructions</text>
+<text x="280" y="135" style="font-size:13px;font-family:'Arial'">Adress</text>
+<text x="280" y="175" style="font-size:13px;font-family:'Arial'">Data</text>
+
+
+<path d="M 100 10 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
+
+<text x="245" y="25" style="font-size:13px;font-family:'Arial'">X</text>
+<text x="345" y="25" style="font-size:13px;font-family:'Arial'">Y</text>
+<text x="445" y="25" style="font-size:13px;font-family:'Arial'">Z</text>
+
+<g transform="translate(0,70)">
+<path d="M 100 10 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 35 v 5 a 5 5 0 0 0 5 5 h 90 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 90 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
+
+<text x="145" y="25" style="font-size:13px;font-family:'Arial'">OP</text>
+<text x="245" y="25" style="font-size:13px;font-family:'Arial'">X</text>
+
+</g>
+
+<g transform="translate(0,140)">
+<path d="M 100 10 h 400 v 20 h -400 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 400 10 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 200 35 v 5 a 5 5 0 0 0 5 5 h 140 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 140 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
+
+<text x="145" y="25" style="font-size:13px;font-family:'Arial'">OP</text>
+</g>
+-->
+</svg>
